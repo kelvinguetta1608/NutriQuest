@@ -1,23 +1,23 @@
 Using pre-set license
 Built from '2022.3/staging' branch; Version is '2022.3.42f1 (2dcb6a0abc42) revision 3001194'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19045) 64bit Enterprise' Language: 'es' Physical Memory: 65427 MB
+OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'es' Physical Memory: 14257 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2022.3.42f1\Editor\Unity.exe
+D:\unity\2022.3.42f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker2
 -projectPath
-D:/Users/admin-ilinf/Desktop/Nutri/NutriQuest
+D:/interfazd2/NutriQuest
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-62947
-Successfully changed project path to: D:/Users/admin-ilinf/Desktop/Nutri/NutriQuest
-D:/Users/admin-ilinf/Desktop/Nutri/NutriQuest
+1161
+Successfully changed project path to: D:/interfazd2/NutriQuest
+D:/interfazd2/NutriQuest
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,67 +49,73 @@ D:/Users/admin-ilinf/Desktop/Nutri/NutriQuest
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [9328]  Target information:
+Player connection [29364]  Target information:
 
-Player connection [9328]  * "[IP] 172.16.52.76 [Port] 0 [Flags] 2 [Guid] 1922461363 [EditorId] 1922461363 [Version] 1048832 [Id] WindowsEditor(7,D125057) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [29364]  * "[IP] 192.168.18.4 [Port] 0 [Flags] 2 [Guid] 1982518085 [EditorId] 1982518085 [Version] 1048832 [Id] WindowsEditor(7,Future) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [9328] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [9328] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [29364]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1982518085 [EditorId] 1982518085 [Version] 1048832 [Id] WindowsEditor(7,Future) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [29364]  * "[IP] 169.254.252.236 [Port] 0 [Flags] 2 [Guid] 1982518085 [EditorId] 1982518085 [Version] 1048832 [Id] WindowsEditor(7,Future) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [29364]  * "[IP] 192.168.100.1 [Port] 0 [Flags] 2 [Guid] 1982518085 [EditorId] 1982518085 [Version] 1048832 [Id] WindowsEditor(7,Future) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [29364] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [29364] Host joined alternative multi-casting on [225.0.0.222:34997]...
 [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-Refreshing native plugins compatible for Editor in 193.50 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 29.43 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.42f1 (2dcb6a0abc42)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.42f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/Users/admin-ilinf/Desktop/Nutri/NutriQuest/Assets
+[Subsystems] Discovering subsystems at path D:/unity/2022.3.42f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/interfazd2/NutriQuest/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
-    Version:  Direct3D 11.0 [level 11.0]
-    Renderer: NVIDIA Quadro K420 (ID=0xff3)
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c82)
     Vendor:   NVIDIA
-    VRAM:     2007 MB
-    Driver:   23.21.13.9125
+    VRAM:     4004 MB
+    Driver:   32.0.15.7283
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.42f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.42f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.42f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56412
+Mono path[0] = 'D:/unity/2022.3.42f1/Editor/Data/Managed'
+Mono path[1] = 'D:/unity/2022.3.42f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/unity/2022.3.42f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56040
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.42f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.009763 seconds.
-- Loaded All Assemblies, in  0.407 seconds
+Register platform support module: D:/unity/2022.3.42f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007979 seconds.
+- Loaded All Assemblies, in  0.503 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.307 seconds
-Domain Reload Profiling: 712ms
-	BeginReloadAssembly (128ms)
+- Finished resetting the current domain, in  0.417 seconds
+Domain Reload Profiling: 919ms
+	BeginReloadAssembly (160ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (43ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (69ms)
-	LoadAllAssembliesAndSetupDomain (153ms)
-		LoadAssemblies (125ms)
+	RebuildCommonClasses (53ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (81ms)
+	LoadAllAssembliesAndSetupDomain (195ms)
+		LoadAssemblies (158ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (151ms)
-			TypeCache.Refresh (150ms)
-				TypeCache.ScanAssembly (136ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (307ms)
+		AnalyzeDomain (192ms)
+			TypeCache.Refresh (190ms)
+				TypeCache.ScanAssembly (171ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (417ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (257ms)
+		SetupLoadedEditorAssemblies (348ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (12ms)
-			SetLoadedEditorAssemblies (9ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (10ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (172ms)
-			ProcessInitializeOnLoadMethodAttributes (62ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (237ms)
+			ProcessInitializeOnLoadMethodAttributes (84ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -117,30 +123,30 @@ Domain Reload Profiling: 712ms
 ========================================================================
 Worker process is ready to serve import requests
 Caller must complete domain reload
-0x00007ff63f90d08d (Unity) StackWalker::GetCurrentCallstack
-0x00007ff63f912169 (Unity) StackWalker::ShowCallstack
-0x00007ff6408ff231 (Unity) GetStacktrace
-0x00007ff640fb9e6e (Unity) DebugStringToFile
-0x00007ff640fb9baa (Unity) AssertImplementation
-0x00007ff64079d9fc (Unity) Internal_ADB_WorkerOnly_DomainReload
-0x00007ff640c83484 (Unity) WorkerDomainReloadV2
-0x00007ff640ca40af (Unity) <lambda_943be6b2c5671afd01d59371cf3ef730>::operator()
-0x00007ff640cdfea2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
-0x00007ff640ccbe4e (Unity) asio::detail::win_iocp_io_context::do_one
-0x00007ff640ccda7e (Unity) asio::detail::win_iocp_io_context::run
-0x00007ff640cde24c (Unity) IOService::Run
-0x00007ff640cb16cf (Unity) AssetImportWorkerClient::Run
-0x00007ff640c7d037 (Unity) RunAssetImportWorkerClientV2
-0x00007ff640c7d0bb (Unity) RunAssetImporterV2
-0x00007ff6404776fe (Unity) Application::InitializeProject
-0x00007ff640909ed5 (Unity) WinMain
-0x00007ff641cbb7be (Unity) __scrt_common_main_seh
-0x00007ffdb4947374 (KERNEL32) BaseThreadInitThunk
-0x00007ffdb579cc91 (ntdll) RtlUserThreadStart
+0x00007ff72d2bd08d (Unity) StackWalker::GetCurrentCallstack
+0x00007ff72d2c2169 (Unity) StackWalker::ShowCallstack
+0x00007ff72e2af231 (Unity) GetStacktrace
+0x00007ff72e969e6e (Unity) DebugStringToFile
+0x00007ff72e969baa (Unity) AssertImplementation
+0x00007ff72e14d9fc (Unity) Internal_ADB_WorkerOnly_DomainReload
+0x00007ff72e633484 (Unity) WorkerDomainReloadV2
+0x00007ff72e6540af (Unity) <lambda_943be6b2c5671afd01d59371cf3ef730>::operator()
+0x00007ff72e68fea2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007ff72e67be4e (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007ff72e67da7e (Unity) asio::detail::win_iocp_io_context::run
+0x00007ff72e68e24c (Unity) IOService::Run
+0x00007ff72e6616cf (Unity) AssetImportWorkerClient::Run
+0x00007ff72e62d037 (Unity) RunAssetImportWorkerClientV2
+0x00007ff72e62d0bb (Unity) RunAssetImporterV2
+0x00007ff72de276fe (Unity) Application::InitializeProject
+0x00007ff72e2b9ed5 (Unity) WinMain
+0x00007ff72f66b7be (Unity) __scrt_common_main_seh
+0x00007ffa1b04e8d7 (KERNEL32) BaseThreadInitThunk
+0x00007ffa1c9d14fc (ntdll) RtlUserThreadStart
 
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.748 seconds
+- Loaded All Assemblies, in  0.942 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
 Package Manager log level set to [2]
@@ -150,50 +156,51 @@ Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.736 seconds
-Domain Reload Profiling: 1482ms
-	BeginReloadAssembly (174ms)
+- Finished resetting the current domain, in  1.018 seconds
+Domain Reload Profiling: 1959ms
+	BeginReloadAssembly (208ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
+		DisableScriptedObjects (9ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (27ms)
-	RebuildCommonClasses (37ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (47ms)
-	LoadAllAssembliesAndSetupDomain (476ms)
-		LoadAssemblies (338ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (60ms)
+	LoadAllAssembliesAndSetupDomain (614ms)
+		LoadAssemblies (454ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (235ms)
-			TypeCache.Refresh (193ms)
-				TypeCache.ScanAssembly (172ms)
-			ScanForSourceGeneratedMonoScriptInfo (33ms)
+		AnalyzeDomain (277ms)
+			TypeCache.Refresh (229ms)
+				TypeCache.ScanAssembly (206ms)
+			ScanForSourceGeneratedMonoScriptInfo (38ms)
 			ResolveRequiredComponents (8ms)
-	FinalizeReload (737ms)
+	FinalizeReload (1019ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (549ms)
+		SetupLoadedEditorAssemblies (781ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (7ms)
 			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (92ms)
-			ProcessInitializeOnLoadAttributes (392ms)
-			ProcessInitializeOnLoadMethodAttributes (43ms)
-			AfterProcessingInitializeOnLoad (9ms)
+			BeforeProcessingInitializeOnLoad (111ms)
+			ProcessInitializeOnLoadAttributes (569ms)
+			ProcessInitializeOnLoadMethodAttributes (82ms)
+			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 7.97 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (15ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 13.74 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4787 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 33 unused Assets / (57.8 KB). Loaded Objects now: 5256.
-Memory consumption went from 162.6 MB to 162.5 MB.
-Total: 3.985500 ms (FindLiveObjects: 0.364500 ms CreateObjectMapping: 0.383000 ms MarkObjects: 3.136300 ms  DeleteObjects: 0.100900 ms)
+Unloading 4786 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (59.3 KB). Loaded Objects now: 5255.
+Memory consumption went from 162.8 MB to 162.7 MB.
+Total: 9.035300 ms (FindLiveObjects: 0.632300 ms CreateObjectMapping: 0.776300 ms MarkObjects: 7.236600 ms  DeleteObjects: 0.387900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
@@ -205,39 +212,6 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 506235.251907 seconds.
-  path: Assets/Fonts/baloo-bhaijaan/BalooBhaijaan-Regular SDF.asset
-  artifactKey: Guid(35442e1a6d1b97a4b802e3d53d84318e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fonts/baloo-bhaijaan/BalooBhaijaan-Regular SDF.asset using Guid(35442e1a6d1b97a4b802e3d53d84318e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '7636eebfe80d5f601241dfc3b832f930') in 0.166918 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Fonts/montserrat/Montserrat-Medium SDF.asset
-  artifactKey: Guid(e641bc60caf90bb458a9a85f77eadb1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fonts/montserrat/Montserrat-Medium SDF.asset using Guid(e641bc60caf90bb458a9a85f77eadb1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '46fa79ae4a9e3bc0d773268d480dbfa3') in 0.028367 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Fonts/montserrat/Montserrat-Regular SDF.asset
-  artifactKey: Guid(a8bdfe2120e1a254dbaa34cf9b99a8ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fonts/montserrat/Montserrat-Regular SDF.asset using Guid(a8bdfe2120e1a254dbaa34cf9b99a8ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'e25134f55ec01cbb48bbad4871b1b57c') in 0.021906 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: La operación de E/S se anuló por una salida de subproceso o por una solicitud de aplicación.
 AssetImportWorker is now disconnected from the server
