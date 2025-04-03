@@ -87,8 +87,8 @@
     <Compile Include="Assets\Ready Player Me\Core\Runtime\Core\Scripts\Data\ScriptableObjects\AvatarConfig.cs" />
     <Compile Include="Assets\Ready Player Me\Core\Runtime\Core\Scripts\Analytics\AmplitudeRuntimeLogger.cs" />
     <Compile Include="Assets\Ready Player Me\Core\Runtime\Core\Scripts\Logger\RuntimeDebugPanel.cs" />
-    <Compile Include="Assets\Ready Player Me\Core\Runtime\Core\Scripts\Operations\OperationExecutor.cs" />
     <Compile Include="Assets\Ready Player Me\Core\Runtime\Core\Scripts\Analytics\IAnalyticsLogger.cs" />
+    <Compile Include="Assets\Ready Player Me\Core\Runtime\Core\Scripts\Operations\OperationExecutor.cs" />
     <Compile Include="Assets\Ready Player Me\Core\Runtime\Core\Scripts\Data\ScriptableObjects\CoreSettings.cs" />
     <Compile Include="Assets\Ready Player Me\Core\Runtime\Core\Scripts\Data\AvatarContext.cs" />
     <Compile Include="Assets\Ready Player Me\Core\Runtime\Core\Scripts\Data\AvatarRenderSettings.cs" />
@@ -117,8 +117,8 @@
     <Compile Include="Assets\Ready Player Me\Core\Runtime\Core\Scripts\Data\Enums.cs" />
     <Compile Include="Assets\Ready Player Me\Core\Runtime\Core\Scripts\Utils\AvatarMeshHelper.cs" />
     <Compile Include="Assets\Ready Player Me\Core\Runtime\Core\Scripts\GLTF\GLTFDeferAgent.cs" />
-    <Compile Include="Assets\Ready Player Me\Core\Runtime\Core\Scripts\Data\ScriptableObjects\AvatarLoaderSettings.cs" />
     <Compile Include="Assets\Ready Player Me\Core\Runtime\Core\Scripts\Operations\UrlProcessor.cs" />
+    <Compile Include="Assets\Ready Player Me\Core\Runtime\Core\Scripts\Data\ScriptableObjects\AvatarLoaderSettings.cs" />
     <Compile Include="Assets\Ready Player Me\Core\Runtime\Core\Scripts\AvatarObjectLoader.cs" />
     <Compile Include="Assets\Ready Player Me\Core\Runtime\Core\Scripts\Extensions\WebRequestDispatcherExtension.cs" />
     <Compile Include="Assets\Ready Player Me\Core\Runtime\Core\Scripts\Interfaces\IOperation.cs" />
@@ -475,10 +475,6 @@
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.42f1\Editor\Data\Managed\UnityEditor.Graphs.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="UnityEditor.WebGL.Extensions">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.42f1\Editor\Data\PlaybackEngines\WebGLSupport\UnityEditor.WebGL.Extensions.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.42f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
       <Private>False</Private>
@@ -515,12 +511,12 @@
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.9.4\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.VisualScripting.TextureAssets">
-      <HintPath>Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@3.2.1\Runtime\Newtonsoft.Json.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.TextureAssets">
+      <HintPath>Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="netstandard">
