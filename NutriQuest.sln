@@ -11,13 +11,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadyPlayerMe.Core", "Ready
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadyPlayerMe.Samples.AvatarLoading", "ReadyPlayerMe.Samples.AvatarLoading.csproj", "{7FE9E3F9-E080-DBDA-CA34-B08685FE82C1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{C84A3097-B110-E7BA-504F-197E3350D3E9}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadyPlayerMe.Samples.AvatarCreatorElements", "ReadyPlayerMe.Samples.AvatarCreatorElements.csproj", "{4AD1392D-42C4-402C-EEF3-7415B3FDD627}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadyPlayerMe.Samples.WebGLSample", "ReadyPlayerMe.Samples.WebGLSample.csproj", "{B588AE08-A8B6-B135-39F9-C6A991A9D49C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadyPlayerMe.Samples.QuickStart", "ReadyPlayerMe.Samples.QuickStart.csproj", "{FC41208C-95A7-3BAD-0401-21D633CE2C81}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{C84A3097-B110-E7BA-504F-197E3350D3E9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadyPlayerMe.Core.WebGLSample.Editor", "ReadyPlayerMe.Core.WebGLSample.Editor.csproj", "{33823D90-AA6B-6AB4-E382-63D36F54A3E9}"
 EndProject
@@ -53,6 +53,10 @@ Global
 		{7FE9E3F9-E080-DBDA-CA34-B08685FE82C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7FE9E3F9-E080-DBDA-CA34-B08685FE82C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7FE9E3F9-E080-DBDA-CA34-B08685FE82C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C84A3097-B110-E7BA-504F-197E3350D3E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C84A3097-B110-E7BA-504F-197E3350D3E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C84A3097-B110-E7BA-504F-197E3350D3E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C84A3097-B110-E7BA-504F-197E3350D3E9}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4AD1392D-42C4-402C-EEF3-7415B3FDD627}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4AD1392D-42C4-402C-EEF3-7415B3FDD627}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4AD1392D-42C4-402C-EEF3-7415B3FDD627}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -65,10 +69,6 @@ Global
 		{FC41208C-95A7-3BAD-0401-21D633CE2C81}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC41208C-95A7-3BAD-0401-21D633CE2C81}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC41208C-95A7-3BAD-0401-21D633CE2C81}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C84A3097-B110-E7BA-504F-197E3350D3E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C84A3097-B110-E7BA-504F-197E3350D3E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C84A3097-B110-E7BA-504F-197E3350D3E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C84A3097-B110-E7BA-504F-197E3350D3E9}.Release|Any CPU.Build.0 = Release|Any CPU
 		{33823D90-AA6B-6AB4-E382-63D36F54A3E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{33823D90-AA6B-6AB4-E382-63D36F54A3E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{33823D90-AA6B-6AB4-E382-63D36F54A3E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
