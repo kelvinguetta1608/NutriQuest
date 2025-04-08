@@ -1,21 +1,29 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Usuario\\NutriQuest\\",
+  "WorkspaceRootPath": "C:\\Users\\mandi\\Documents\\GitHub\\NutriQuest\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FC41208C-95A7-3BAD-0401-21D633CE2C81}|ReadyPlayerMe.Samples.QuickStart.csproj|c:\\users\\usuario\\nutriquest\\assets\\ready player me\\core\\samples\\quickstart\\scripts\\thirdpersonloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C84A3097-B110-E7BA-504F-197E3350D3E9}|Assembly-CSharp.csproj|c:\\users\\mandi\\documents\\github\\nutriquest\\assets\\scripts\\inventariouimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C84A3097-B110-E7BA-504F-197E3350D3E9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\inventariouimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C84A3097-B110-E7BA-504F-197E3350D3E9}|Assembly-CSharp.csproj|C:\\Users\\mandi\\Documents\\GitHub\\NutriQuest\\assets\\scripts\\uistatemanage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C84A3097-B110-E7BA-504F-197E3350D3E9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\uistatemanage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC41208C-95A7-3BAD-0401-21D633CE2C81}|ReadyPlayerMe.Samples.QuickStart.csproj|c:\\users\\mandi\\documents\\github\\nutriquest\\assets\\ready player me\\core\\samples\\quickstart\\scripts\\thirdpersonloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FC41208C-95A7-3BAD-0401-21D633CE2C81}|ReadyPlayerMe.Samples.QuickStart.csproj|solutionrelative:assets\\ready player me\\core\\samples\\quickstart\\scripts\\thirdpersonloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FC41208C-95A7-3BAD-0401-21D633CE2C81}|ReadyPlayerMe.Samples.QuickStart.csproj|C:\\Users\\Usuario\\NutriQuest\\assets\\ready player me\\core\\samples\\quickstart\\scripts\\personalavatarloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FC41208C-95A7-3BAD-0401-21D633CE2C81}|ReadyPlayerMe.Samples.QuickStart.csproj|C:\\Users\\mandi\\Documents\\GitHub\\NutriQuest\\assets\\ready player me\\core\\samples\\quickstart\\scripts\\personalavatarloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FC41208C-95A7-3BAD-0401-21D633CE2C81}|ReadyPlayerMe.Samples.QuickStart.csproj|solutionrelative:assets\\ready player me\\core\\samples\\quickstart\\scripts\\personalavatarloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FC41208C-95A7-3BAD-0401-21D633CE2C81}|ReadyPlayerMe.Samples.QuickStart.csproj|C:\\Users\\Usuario\\NutriQuest\\assets\\ready player me\\core\\samples\\quickstart\\scripts\\thirdpersoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FC41208C-95A7-3BAD-0401-21D633CE2C81}|ReadyPlayerMe.Samples.QuickStart.csproj|C:\\Users\\mandi\\Documents\\GitHub\\NutriQuest\\assets\\ready player me\\core\\samples\\quickstart\\scripts\\thirdpersoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FC41208C-95A7-3BAD-0401-21D633CE2C81}|ReadyPlayerMe.Samples.QuickStart.csproj|solutionrelative:assets\\ready player me\\core\\samples\\quickstart\\scripts\\thirdpersoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C84A3097-B110-E7BA-504F-197E3350D3E9}|Assembly-CSharp.csproj|C:\\Users\\Usuario\\NutriQuest\\assets\\scripts\\createavatar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C84A3097-B110-E7BA-504F-197E3350D3E9}|Assembly-CSharp.csproj|C:\\Users\\mandi\\Documents\\GitHub\\NutriQuest\\assets\\scripts\\createavatar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C84A3097-B110-E7BA-504F-197E3350D3E9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\createavatar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -26,39 +34,41 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PersonalAvatarLoader.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\NutriQuest\\Assets\\Ready Player Me\\Core\\Samples\\QuickStart\\Scripts\\PersonalAvatarLoader.cs",
-              "RelativeDocumentMoniker": "Assets\\Ready Player Me\\Core\\Samples\\QuickStart\\Scripts\\PersonalAvatarLoader.cs",
-              "ToolTip": "C:\\Users\\Usuario\\NutriQuest\\Assets\\Ready Player Me\\Core\\Samples\\QuickStart\\Scripts\\PersonalAvatarLoader.cs",
-              "RelativeToolTip": "Assets\\Ready Player Me\\Core\\Samples\\QuickStart\\Scripts\\PersonalAvatarLoader.cs",
-              "ViewState": "AgIAAFYAAAAAAAAAAAAAwBEAAAAyAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "InventarioUIManager.cs",
+              "DocumentMoniker": "C:\\Users\\mandi\\Documents\\GitHub\\NutriQuest\\Assets\\Scripts\\InventarioUIManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\InventarioUIManager.cs",
+              "ToolTip": "C:\\Users\\mandi\\Documents\\GitHub\\NutriQuest\\Assets\\Scripts\\InventarioUIManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\InventarioUIManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T20:25:23.263Z"
+              "WhenOpened": "2025-04-07T23:22:35.444Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UIStateManage.cs",
+              "DocumentMoniker": "C:\\Users\\mandi\\Documents\\GitHub\\NutriQuest\\Assets\\Scripts\\UIStateManage.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UIStateManage.cs",
+              "ToolTip": "C:\\Users\\mandi\\Documents\\GitHub\\NutriQuest\\Assets\\Scripts\\UIStateManage.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UIStateManage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T23:20:49.797Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ThirdPersonController.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\NutriQuest\\Assets\\Ready Player Me\\Core\\Samples\\QuickStart\\Scripts\\ThirdPersonController.cs",
-              "RelativeDocumentMoniker": "Assets\\Ready Player Me\\Core\\Samples\\QuickStart\\Scripts\\ThirdPersonController.cs",
-              "ToolTip": "C:\\Users\\Usuario\\NutriQuest\\Assets\\Ready Player Me\\Core\\Samples\\QuickStart\\Scripts\\ThirdPersonController.cs",
-              "RelativeToolTip": "Assets\\Ready Player Me\\Core\\Samples\\QuickStart\\Scripts\\ThirdPersonController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T20:21:53.779Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "ThirdPersonLoader.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\NutriQuest\\Assets\\Ready Player Me\\Core\\Samples\\QuickStart\\Scripts\\ThirdPersonLoader.cs",
+              "DocumentMoniker": "C:\\Users\\mandi\\Documents\\GitHub\\NutriQuest\\Assets\\Ready Player Me\\Core\\Samples\\QuickStart\\Scripts\\ThirdPersonLoader.cs",
               "RelativeDocumentMoniker": "Assets\\Ready Player Me\\Core\\Samples\\QuickStart\\Scripts\\ThirdPersonLoader.cs",
-              "ToolTip": "C:\\Users\\Usuario\\NutriQuest\\Assets\\Ready Player Me\\Core\\Samples\\QuickStart\\Scripts\\ThirdPersonLoader.cs",
+              "ToolTip": "C:\\Users\\mandi\\Documents\\GitHub\\NutriQuest\\Assets\\Ready Player Me\\Core\\Samples\\QuickStart\\Scripts\\ThirdPersonLoader.cs",
               "RelativeToolTip": "Assets\\Ready Player Me\\Core\\Samples\\QuickStart\\Scripts\\ThirdPersonLoader.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAUwEMAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -66,12 +76,40 @@
               "EditorCaption": ""
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "PersonalAvatarLoader.cs",
+              "DocumentMoniker": "C:\\Users\\mandi\\Documents\\GitHub\\NutriQuest\\Assets\\Ready Player Me\\Core\\Samples\\QuickStart\\Scripts\\PersonalAvatarLoader.cs",
+              "RelativeDocumentMoniker": "Assets\\Ready Player Me\\Core\\Samples\\QuickStart\\Scripts\\PersonalAvatarLoader.cs",
+              "ToolTip": "C:\\Users\\mandi\\Documents\\GitHub\\NutriQuest\\Assets\\Ready Player Me\\Core\\Samples\\QuickStart\\Scripts\\PersonalAvatarLoader.cs",
+              "RelativeToolTip": "Assets\\Ready Player Me\\Core\\Samples\\QuickStart\\Scripts\\PersonalAvatarLoader.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAAwBEAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T20:25:23.263Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ThirdPersonController.cs",
+              "DocumentMoniker": "C:\\Users\\mandi\\Documents\\GitHub\\NutriQuest\\Assets\\Ready Player Me\\Core\\Samples\\QuickStart\\Scripts\\ThirdPersonController.cs",
+              "RelativeDocumentMoniker": "Assets\\Ready Player Me\\Core\\Samples\\QuickStart\\Scripts\\ThirdPersonController.cs",
+              "ToolTip": "C:\\Users\\mandi\\Documents\\GitHub\\NutriQuest\\Assets\\Ready Player Me\\Core\\Samples\\QuickStart\\Scripts\\ThirdPersonController.cs",
+              "RelativeToolTip": "Assets\\Ready Player Me\\Core\\Samples\\QuickStart\\Scripts\\ThirdPersonController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T20:21:53.779Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "CreateAvatar.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\NutriQuest\\Assets\\Scripts\\CreateAvatar.cs",
+              "DocumentMoniker": "C:\\Users\\mandi\\Documents\\GitHub\\NutriQuest\\Assets\\Scripts\\CreateAvatar.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CreateAvatar.cs",
-              "ToolTip": "C:\\Users\\Usuario\\NutriQuest\\Assets\\Scripts\\CreateAvatar.cs",
+              "ToolTip": "C:\\Users\\mandi\\Documents\\GitHub\\NutriQuest\\Assets\\Scripts\\CreateAvatar.cs",
               "RelativeToolTip": "Assets\\Scripts\\CreateAvatar.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
