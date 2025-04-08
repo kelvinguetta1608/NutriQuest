@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Avatar.unity
     guid: 3fc8acdd13e6c734bafef6554d6fdbcd
+  - enabled: 1
+    path: Assets/Scenes/miniJuego.unity
+    guid: 2985cd86ba5cec14e90247f4da9c4fc2
   m_configObjects: {}
