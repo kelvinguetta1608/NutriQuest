@@ -15,6 +15,9 @@ EditorBuildSettings:
     path: Assets/Scenes/AlomentosCat.unity
     guid: c9786e3df4ccb404d9f90e601348a735
   - enabled: 1
+    path: Assets/Scenes/Licuadora.unity
+    guid: 04fc4d0720c6caa4e88619e1ecdfa440
+  - enabled: 1
     path: Assets/Scenes/Avatar.unity
     guid: 3fc8acdd13e6c734bafef6554d6fdbcd
   - enabled: 1
