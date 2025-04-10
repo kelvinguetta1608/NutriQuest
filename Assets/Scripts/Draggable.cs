@@ -53,7 +53,21 @@ public class Draggable : MonoBehaviour
         //if (other.CompareTag("DropValid") )
         if (other.tag == this.tag)
         {
-            _movementDestination = other.transform.position;
+            // Intentamos obtener el centro del BoxCollider2D del objeto con el que colisionamos
+            BoxCollider2D box = other.GetComponent<BoxCollider2D>();
+            if (box != null)
+            {
+                // El centro del collider en coordenadas mundiales
+                Vector3 center = box.bounds.center;
+                _movementDestination = center;
+            }
+            else
+            {
+                // Fallback a la posición del objeto si no tiene BoxCollider2D
+                _movementDestination = other.transform.position;
+            }
+
+            //_movementDestination = other.transform.position;
         }
         else if (other.tag != this.tag)
         {
