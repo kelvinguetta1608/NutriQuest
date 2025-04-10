@@ -1,10 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\dmaca\\OneDrive\\Documentos\\Semestre 8\\Dise\u00F1o Multimedia 2\\NutriQuestRepositorio\\NutriQuest\\",
+  "WorkspaceRootPath": "D:\\Users\\admin-ilinf\\Desktop\\Nutri\\NutriQuest\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C84A3097-B110-E7BA-504F-197E3350D3E9}|Assembly-CSharp.csproj|c:\\users\\dmaca\\onedrive\\documentos\\semestre 8\\dise\u00F1o multimedia 2\\nutriquestrepositorio\\nutriquest\\assets\\scripts\\loadscena.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C84A3097-B110-E7BA-504F-197E3350D3E9}|Assembly-CSharp.csproj|d:\\users\\admin-ilinf\\desktop\\nutri\\nutriquest\\assets\\scripts\\loadscena.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C84A3097-B110-E7BA-504F-197E3350D3E9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\loadscena.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C84A3097-B110-E7BA-504F-197E3350D3E9}|Assembly-CSharp.csproj|d:\\users\\admin-ilinf\\desktop\\nutri\\nutriquest\\assets\\scripts\\gameobjectactivator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C84A3097-B110-E7BA-504F-197E3350D3E9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gameobjectactivator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,17 +18,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GameObjectActivator.cs",
+              "DocumentMoniker": "D:\\Users\\admin-ilinf\\Desktop\\Nutri\\NutriQuest\\Assets\\Scripts\\GameObjectActivator.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameObjectActivator.cs",
+              "ToolTip": "D:\\Users\\admin-ilinf\\Desktop\\Nutri\\NutriQuest\\Assets\\Scripts\\GameObjectActivator.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameObjectActivator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T13:38:32.565Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "LoadScena.cs",
-              "DocumentMoniker": "C:\\Users\\dmaca\\OneDrive\\Documentos\\Semestre 8\\Dise\u00F1o Multimedia 2\\NutriQuestRepositorio\\NutriQuest\\Assets\\Scripts\\LoadScena.cs",
+              "DocumentMoniker": "D:\\Users\\admin-ilinf\\Desktop\\Nutri\\NutriQuest\\Assets\\Scripts\\LoadScena.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\LoadScena.cs",
-              "ToolTip": "C:\\Users\\dmaca\\OneDrive\\Documentos\\Semestre 8\\Dise\u00F1o Multimedia 2\\NutriQuestRepositorio\\NutriQuest\\Assets\\Scripts\\LoadScena.cs",
+              "ToolTip": "D:\\Users\\admin-ilinf\\Desktop\\Nutri\\NutriQuest\\Assets\\Scripts\\LoadScena.cs",
               "RelativeToolTip": "Assets\\Scripts\\LoadScena.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-09T03:52:00.122Z",
               "EditorCaption": ""

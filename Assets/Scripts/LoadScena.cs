@@ -8,4 +8,14 @@ public class CambioDeEscena : MonoBehaviour
     {
         SceneManager.LoadScene(nombreEscena);
     }
+
+    public void ChangeSceneHome()
+    {
+        SceneManager.LoadScene("inicioMenu");
+    }
+
+    public void ChangeSceneAvatar()
+    {
+        SceneManager.LoadScene("Avatar");
+    }
 }
