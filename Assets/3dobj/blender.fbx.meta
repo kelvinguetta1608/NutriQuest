@@ -3,7 +3,27 @@ guid: 04fac44510aaee048835b4ded6b15501
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: A_Type_Bulb_-_Frosted_-_1500lm
+    second: {fileID: 2100000, guid: bf175d91eb1eefe4b84596a2c0f41d65, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Black_ABS
+    second: {fileID: 2100000, guid: eb17f3e28e40b914f846811f9b7f8f41, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Paint_-_Enamel_Glossy_Black
+    second: {fileID: 2100000, guid: eb17f3e28e40b914f846811f9b7f8f41, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Steel
+    second: {fileID: 2100000, guid: eb17f3e28e40b914f846811f9b7f8f41, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
