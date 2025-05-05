@@ -1,4 +1,4 @@
-using UnityEngine;
+Ôªøusing UnityEngine;
 using System.Collections;
 
 public class Arrastrable3D : MonoBehaviour
@@ -8,10 +8,9 @@ public class Arrastrable3D : MonoBehaviour
     private float distanciaZ;
 
     private bool dentroDeLicuadora = false;
-    private Collider triggerLicuadora;
-    private InventarioLicuadora inventarioLicuadora; // Referencia al script de inventario
+    private bool yaProcesado = false;
 
-    private bool yaProcesado = false; // Controla si ya se procesÛ
+    public LicuadoraManager licuadoraManager; // ‚Üê Referencia p√∫blica
 
     // Posiciones destino
     private Vector3 posIntermedia = new Vector3(-0.14f, 2.23f, 1.06f);
@@ -52,10 +51,6 @@ public class Arrastrable3D : MonoBehaviour
             {
                 StartCoroutine(ProcesarIngrediente());
             }
-            else if (!dentroDeLicuadora)
-            {
-                // AquÌ puedes regresar el objeto a su posiciÛn original si lo deseas.
-            }
         }
     }
 
@@ -64,35 +59,22 @@ public class Arrastrable3D : MonoBehaviour
         if (yaProcesado) yield break;
         yaProcesado = true;
 
-        AgregarAlInventario();
-
         Vector3 posicionInicio = transform.position;
 
-        // Fase 1: hacia punto intermedio con par·bola
+        // Fase 1: hacia punto intermedio
         yield return StartCoroutine(MoverConParabola(posicionInicio, posIntermedia, 0.5f));
 
-        // Fase 2: hacia punto final con par·bola
+        // Fase 2: hacia punto final
         yield return StartCoroutine(MoverConParabola(posIntermedia, posFinal, 0.5f));
 
-        // Agregar al inventario despuÈs de la animaciÛn (usando la referencia guardada)
-        
-
-        // Desactivar objeto (desaparece)
-        gameObject.SetActive(false);
-    }
-
-    private void AgregarAlInventario()
-    {
+        // Agregar al licuadora manager
         Ingrediente ingrediente = GetComponent<Ingrediente>();
-        if (ingrediente != null && inventarioLicuadora != null)
+        if (ingrediente != null && licuadoraManager != null)
         {
-            inventarioLicuadora.AgregarIngrediente(ingrediente.nombreIngrediente);
-            Debug.Log("Ingrediente agregado (tras animaciÛn): " + ingrediente.nombreIngrediente);
+            licuadoraManager.AgregarIngrediente(ingrediente);
         }
-        else
-        {
-            Debug.LogError("No se pudo agregar el ingrediente. Ingrediente o InventarioLicuadora son nulos.");
-        }
+
+        gameObject.SetActive(false);
     }
 
     private IEnumerator MoverConParabola(Vector3 inicio, Vector3 fin, float duracion)
@@ -101,11 +83,9 @@ public class Arrastrable3D : MonoBehaviour
         while (t < 1f)
         {
             t += Time.deltaTime / duracion;
-
             Vector3 punto = Vector3.Lerp(inicio, fin, t);
             float alturaMaxima = 0.6f;
             punto.y += Mathf.Sin(t * Mathf.PI) * alturaMaxima;
-
             transform.position = punto;
             yield return null;
         }
@@ -116,12 +96,6 @@ public class Arrastrable3D : MonoBehaviour
         if (other.CompareTag("Licuadora"))
         {
             dentroDeLicuadora = true;
-            triggerLicuadora = other;
-            inventarioLicuadora = other.GetComponent<InventarioLicuadora>(); // Obtener referencia al entrar
-            if (inventarioLicuadora == null)
-            {
-                Debug.LogError("El objeto con tag 'Licuadora' no tiene el script 'InventarioLicuadora' adjunto.");
-            }
         }
     }
 
@@ -130,8 +104,6 @@ public class Arrastrable3D : MonoBehaviour
         if (other.CompareTag("Licuadora"))
         {
             dentroDeLicuadora = false;
-            triggerLicuadora = null;
-            inventarioLicuadora = null; // Limpiar la referencia al salir
         }
     }
 }
