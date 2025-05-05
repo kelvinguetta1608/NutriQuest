@@ -8,7 +8,10 @@ public class Arrastrable3D : MonoBehaviour
     private float distanciaZ;
 
     private bool dentroDeLicuadora = false;
-    private Collider licuadoraCollider;
+    private Collider triggerLicuadora;
+    private InventarioLicuadora inventarioLicuadora; // Referencia al script de inventario
+
+    private bool yaProcesado = false; // Controla si ya se procesó
 
     // Posiciones destino
     private Vector3 posIntermedia = new Vector3(-0.14f, 2.23f, 1.06f);
@@ -45,14 +48,24 @@ public class Arrastrable3D : MonoBehaviour
         {
             arrastrando = false;
 
-            if (dentroDeLicuadora && licuadoraCollider != null)
+            if (dentroDeLicuadora && !yaProcesado)
             {
-                StartCoroutine(DesaparecerConMovimiento());
+                StartCoroutine(ProcesarIngrediente());
+            }
+            else if (!dentroDeLicuadora)
+            {
+                // Aquí puedes regresar el objeto a su posición original si lo deseas.
             }
         }
     }
-    private IEnumerator DesaparecerConMovimiento()
+
+    private IEnumerator ProcesarIngrediente()
     {
+        if (yaProcesado) yield break;
+        yaProcesado = true;
+
+        AgregarAlInventario();
+
         Vector3 posicionInicio = transform.position;
 
         // Fase 1: hacia punto intermedio con parábola
@@ -61,22 +74,26 @@ public class Arrastrable3D : MonoBehaviour
         // Fase 2: hacia punto final con parábola
         yield return StartCoroutine(MoverConParabola(posIntermedia, posFinal, 0.5f));
 
-        // Agregar al inventario
-        Ingrediente ingrediente = GetComponent<Ingrediente>();
-        if (ingrediente != null && licuadoraCollider != null)
-        {
-            InventarioLicuadora inventario = licuadoraCollider.GetComponent<InventarioLicuadora>();
-            if (inventario != null)
-            {
-                inventario.AgregarIngrediente(ingrediente.nombreIngrediente);
-                Debug.Log("Ingrediente agregado: " + ingrediente.nombreIngrediente);
-            }
-        }
+        // Agregar al inventario después de la animación (usando la referencia guardada)
+        
 
         // Desactivar objeto (desaparece)
         gameObject.SetActive(false);
     }
 
+    private void AgregarAlInventario()
+    {
+        Ingrediente ingrediente = GetComponent<Ingrediente>();
+        if (ingrediente != null && inventarioLicuadora != null)
+        {
+            inventarioLicuadora.AgregarIngrediente(ingrediente.nombreIngrediente);
+            Debug.Log("Ingrediente agregado (tras animación): " + ingrediente.nombreIngrediente);
+        }
+        else
+        {
+            Debug.LogError("No se pudo agregar el ingrediente. Ingrediente o InventarioLicuadora son nulos.");
+        }
+    }
 
     private IEnumerator MoverConParabola(Vector3 inicio, Vector3 fin, float duracion)
     {
@@ -85,10 +102,7 @@ public class Arrastrable3D : MonoBehaviour
         {
             t += Time.deltaTime / duracion;
 
-            // Lerp horizontal
             Vector3 punto = Vector3.Lerp(inicio, fin, t);
-
-            // Parábola en Y (ajusta altura aquí)
             float alturaMaxima = 0.6f;
             punto.y += Mathf.Sin(t * Mathf.PI) * alturaMaxima;
 
@@ -97,13 +111,17 @@ public class Arrastrable3D : MonoBehaviour
         }
     }
 
-
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Licuadora"))
         {
             dentroDeLicuadora = true;
-            licuadoraCollider = other;
+            triggerLicuadora = other;
+            inventarioLicuadora = other.GetComponent<InventarioLicuadora>(); // Obtener referencia al entrar
+            if (inventarioLicuadora == null)
+            {
+                Debug.LogError("El objeto con tag 'Licuadora' no tiene el script 'InventarioLicuadora' adjunto.");
+            }
         }
     }
 
@@ -112,7 +130,8 @@ public class Arrastrable3D : MonoBehaviour
         if (other.CompareTag("Licuadora"))
         {
             dentroDeLicuadora = false;
-            licuadoraCollider = null;
+            triggerLicuadora = null;
+            inventarioLicuadora = null; // Limpiar la referencia al salir
         }
     }
 }
