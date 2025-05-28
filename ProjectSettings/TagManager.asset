@@ -7,6 +7,11 @@ TagManager:
   - Fruit
   - Bomb
   - Licuadora
+  - Fresa
+  - Mango
+  - Banano
+  - Manzana
+  - Bebida
   layers:
   - Default
   - TransparentFX
