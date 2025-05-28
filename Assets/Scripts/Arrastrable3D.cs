@@ -97,7 +97,13 @@ public class Arrastrable3D : MonoBehaviour
         {
             dentroDeLicuadora = true;
         }
+
+        if (other.CompareTag("Bebida"))
+        {
+            Destroy(gameObject); // Elimina este objeto al tocar algo con tag "Bebida"
+        }
     }
+
 
     private void OnTriggerExit(Collider other)
     {
