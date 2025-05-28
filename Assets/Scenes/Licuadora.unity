@@ -3145,6 +3145,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f24241ee6dea37543ba3e5db617def5d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Estado: 0
   barra: {fileID: 115781012}
   valorActual: 0
 --- !u!1 &126581847
@@ -4232,7 +4233,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &171697526
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7689,6 +7690,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f24241ee6dea37543ba3e5db617def5d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Estado: 0
   barra: {fileID: 289112301}
   valorActual: 0
 --- !u!1 &290387199
@@ -8877,6 +8879,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f24241ee6dea37543ba3e5db617def5d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Estado: 0
   barra: {fileID: 358132249}
   valorActual: 0
 --- !u!222 &358132251
@@ -18891,6 +18894,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f24241ee6dea37543ba3e5db617def5d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Estado: 0
   barra: {fileID: 726112285}
   valorActual: 0
 --- !u!1 &728152252
@@ -22863,6 +22867,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f24241ee6dea37543ba3e5db617def5d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Estado: 0
   barra: {fileID: 871845427}
   valorActual: 0
 --- !u!1 &889084478
@@ -24385,6 +24390,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f24241ee6dea37543ba3e5db617def5d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Estado: 0
   barra: {fileID: 930582015}
   valorActual: 0
 --- !u!1 &933119254
@@ -32203,6 +32209,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f24241ee6dea37543ba3e5db617def5d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Estado: 0
   barra: {fileID: 1268207829}
   valorActual: 0
 --- !u!1 &1272734684
@@ -39250,6 +39257,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f24241ee6dea37543ba3e5db617def5d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Estado: 0
   barra: {fileID: 1536207150}
   valorActual: 0
 --- !u!222 &1536207152
@@ -48424,6 +48432,7 @@ MonoBehaviour:
   barraCarboH: {fileID: 289112303}
   barraMag: {fileID: 1268207831}
   necesidad: {fileID: 0}
+  mensajeResultado: {fileID: 0}
 --- !u!1 &1874471790
 GameObject:
   m_ObjectHideFlags: 0
@@ -50299,6 +50308,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f24241ee6dea37543ba3e5db617def5d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Estado: 0
   barra: {fileID: 1939264455}
   valorActual: 0
 --- !u!222 &1939264457
