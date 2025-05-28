@@ -13,13 +13,33 @@ MonoBehaviour:
   m_Name: Ansiedad
   m_EditorClassIdentifier: 
   nombre: Ansiedad
-  descripcion: 
-  hierro: 0
-  vitaminaC: 0
-  omega3: 0
-  proteinas: 0
-  magnesio: 0
-  vitaminaB: 0
-  fibra: 0
-  antioxidantes: 0
-  carbohidratos: 0
+  descripcion: "El magnesio, los \xE1cidos grasos omega-3 y las vitaminas B y C pueden
+    ayudar a reducir los s\xEDntomas de ansiedad al influir en la neurotransmisi\xF3n
+    y reducir la inflamaci\xF3n."
+  hierro:
+    minimo: 20
+    maximo: 50
+  vitaminaC:
+    minimo: 40
+    maximo: 70
+  omega3:
+    minimo: 50
+    maximo: 80
+  proteinas:
+    minimo: 30
+    maximo: 60
+  magnesio:
+    minimo: 60
+    maximo: 90
+  vitaminaB:
+    minimo: 50
+    maximo: 80
+  fibra:
+    minimo: 40
+    maximo: 70
+  antioxidantes:
+    minimo: 50
+    maximo: 80
+  carbohidratos:
+    minimo: 30
+    maximo: 60

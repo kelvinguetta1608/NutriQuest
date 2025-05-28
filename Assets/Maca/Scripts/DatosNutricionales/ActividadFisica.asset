@@ -12,14 +12,35 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6444e89508e7bd2438ed9c7b2ff42028, type: 3}
   m_Name: ActividadFisica
   m_EditorClassIdentifier: 
-  nombre: "ActividadF\xEDsica"
-  descripcion: 
-  hierro: 0.6
-  vitaminaC: 0.4
-  omega3: 0.6
-  proteinas: 0.9
-  magnesio: 0.4
-  vitaminaB: 0.5
-  fibra: 0.2
-  antioxidantes: 0.3
-  carbohidratos: 0.8
+  nombre: Actividad Fisica
+  descripcion: "Una ingesta adecuada de carbohidratos y prote\xEDnas es esencial
+    para el rendimiento y la recuperaci\xF3n f\xEDsica. Los minerales como el hierro
+    y el magnesio tambi\xE9n son cruciales para la funci\xF3n muscular y la producci\xF3n
+    de energ\xEDa."
+  hierro:
+    minimo: 40
+    maximo: 70
+  vitaminaC:
+    minimo: 40
+    maximo: 70
+  omega3:
+    minimo: 30
+    maximo: 60
+  proteinas:
+    minimo: 60
+    maximo: 90
+  magnesio:
+    minimo: 50
+    maximo: 80
+  vitaminaB:
+    minimo: 50
+    maximo: 80
+  fibra:
+    minimo: 30
+    maximo: 60
+  antioxidantes:
+    minimo: 40
+    maximo: 70
+  carbohidratos:
+    minimo: 60
+    maximo: 90

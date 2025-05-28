@@ -14,7 +14,6 @@ public class NecesidadNutricional : ScriptableObject
     [TextArea]
     public string descripcion;
 
-    [Header("Rangos permitidos por nutriente")]
     public RangoNutriente hierro;
     public RangoNutriente vitaminaC;
     public RangoNutriente omega3;
