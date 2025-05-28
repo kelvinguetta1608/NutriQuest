@@ -48357,7 +48357,7 @@ GameObject:
   - component: {fileID: 1862411160}
   - component: {fileID: 1862411163}
   m_Layer: 0
-  m_Name: licuadora
+  m_Name: licuadora1
   m_TagString: Licuadora
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
