@@ -179,13 +179,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '...
-
-    ..
-
-    ...
-
-    ..'
+  m_text: "Cada 100 gr\nCalor\xEDas: 50 kcal\nProte\xEDnas: 0.5 g\nGlucosa: 1.7 g\nVitamina
+    C: 47.8 mg"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 93e16b68011b422478af2206ab0d86a7, type: 2}
   m_sharedMaterial: {fileID: 4884183735116069488, guid: 93e16b68011b422478af2206ab0d86a7, type: 2}
@@ -1715,13 +1710,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '...
-
-    ..
-
-    ...
-
-    ..'
+  m_text: "Cada 100 gr\nCalor\xEDas: 389 kcal\nProte\xEDnas: 16.9 g\nHierro: 4.7
+    mg\nMagnesio: 177 mg"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 93e16b68011b422478af2206ab0d86a7, type: 2}
   m_sharedMaterial: {fileID: 4884183735116069488, guid: 93e16b68011b422478af2206ab0d86a7, type: 2}
@@ -4003,8 +3993,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Antioxidantes\nVitamina K\n\xC1cido f\xF3lico\nVitamina C\nFibra diet\xE9tica\nCompuestos
-    antiinflamatorios"
+  m_text: "Cada 100 gr\nCalor\xEDas: 32 kcal\nProte\xEDnas: 0.7 g\nGlucosa: 2.3 g\nVitamina
+    C: 58.8 mg"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 93e16b68011b422478af2206ab0d86a7, type: 2}
   m_sharedMaterial: {fileID: 4884183735116069488, guid: 93e16b68011b422478af2206ab0d86a7, type: 2}
@@ -4789,13 +4779,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '...
-
-    ..
-
-    ...
-
-    ..'
+  m_text: "Cada 100 gr\nCalor\xEDas: 69 kcal\nProte\xEDnas: 0.7 g\nGlucosa: 8.1 g\nVitamina
+    C: 10.8 mg"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 93e16b68011b422478af2206ab0d86a7, type: 2}
   m_sharedMaterial: {fileID: 4884183735116069488, guid: 93e16b68011b422478af2206ab0d86a7, type: 2}
@@ -5861,13 +5846,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '...
-
-    ..
-
-    ...
-
-    ..'
+  m_text: "Cada 100 gr\nCalor\xEDas: 155 kcal\nProte\xEDnas: 13 g\nVitamina B12:
+    1.1 \xB5g\nVitamina D: 87 IU"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 93e16b68011b422478af2206ab0d86a7, type: 2}
   m_sharedMaterial: {fileID: 4884183735116069488, guid: 93e16b68011b422478af2206ab0d86a7, type: 2}
@@ -7373,13 +7353,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '...
-
-    ..
-
-    ...
-
-    ..'
+  m_text: "Cada 100 gr\nCalor\xEDas: 60 kcal\nProte\xEDnas: 0.8 g\nGlucosa: 2.3 g\nVitamina
+    C: 36.4 mg"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 93e16b68011b422478af2206ab0d86a7, type: 2}
   m_sharedMaterial: {fileID: 4884183735116069488, guid: 93e16b68011b422478af2206ab0d86a7, type: 2}
@@ -9102,13 +9077,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '...
-
-    ..
-
-    ...
-
-    ..'
+  m_text: "Cada 100 gr\nCalor\xEDas: 31 kcal\nProte\xEDnas: 1 g\nGlucosa: 2.3 g\nVitamina
+    C: 127.7 mg"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 93e16b68011b422478af2206ab0d86a7, type: 2}
   m_sharedMaterial: {fileID: 4884183735116069488, guid: 93e16b68011b422478af2206ab0d86a7, type: 2}
@@ -10823,13 +10793,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '...
-
-    ..
-
-    ...
-
-    ..'
+  m_text: "Cada 100 gr\nCalor\xEDas: 61 kcal\nProte\xEDnas: 3.5 g\nGlucosa: 2.6 g\nCalcio:
+    121 mg"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 93e16b68011b422478af2206ab0d86a7, type: 2}
   m_sharedMaterial: {fileID: 4884183735116069488, guid: 93e16b68011b422478af2206ab0d86a7, type: 2}
@@ -11723,13 +11688,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '...
-
-    ..
-
-    ...
-
-    ..'
+  m_text: "Cada 100 gr\nCalor\xEDas: 486 kcal\nProte\xEDnas: 16.5 g\nomega-3: 17.8
+    g\nFibra: 34.4 g"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 93e16b68011b422478af2206ab0d86a7, type: 2}
   m_sharedMaterial: {fileID: 4884183735116069488, guid: 93e16b68011b422478af2206ab0d86a7, type: 2}
@@ -12140,13 +12100,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '...
-
-    ..
-
-    ...
-
-    ..'
+  m_text: "Cada 100 gr\nCalor\xEDas: 59 kcal\nProte\xEDnas: 10 g\nGlucosa: 1.7 g\nCalcio:
+    110 mg"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 93e16b68011b422478af2206ab0d86a7, type: 2}
   m_sharedMaterial: {fileID: 4884183735116069488, guid: 93e16b68011b422478af2206ab0d86a7, type: 2}
@@ -13775,13 +13730,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '...
-
-    ..
-
-    ...
-
-    ..'
+  m_text: "Cada 100 gr\nCalor\xEDas: 304 kcal\nProte\xEDnas: 0.3 g\nGlucosa: 35.8
+    g\nHierro: 0.42 mg"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 93e16b68011b422478af2206ab0d86a7, type: 2}
   m_sharedMaterial: {fileID: 4884183735116069488, guid: 93e16b68011b422478af2206ab0d86a7, type: 2}
@@ -15038,13 +14988,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '...
-
-    ..
-
-    ...
-
-    ..'
+  m_text: "Cada 100 gr \nCalor\xEDas: 579 kcal\nProte\xEDnas: 21.2 g\nMagnesio: 268
+    mg\nVitamina E: 25.6 mg"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 93e16b68011b422478af2206ab0d86a7, type: 2}
   m_sharedMaterial: {fileID: 4884183735116069488, guid: 93e16b68011b422478af2206ab0d86a7, type: 2}
@@ -18352,13 +18297,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '...
-
-    ..
-
-    ...
-
-    ..'
+  m_text: "Calor\xEDas: 52 kcal\nProte\xEDnas: 0.3 g\nGlucosa: 2.4 g\nVitamina C:
+    4.6 mg"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 93e16b68011b422478af2206ab0d86a7, type: 2}
   m_sharedMaterial: {fileID: 4884183735116069488, guid: 93e16b68011b422478af2206ab0d86a7, type: 2}
@@ -20279,13 +20219,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '...
-
-    ..
-
-    ...
-
-    ..'
+  m_text: "Cada 100 gr\nCalor\xEDas: 23 kcal\nProte\xEDnas: 2.9 g\nGlucosa: 0.4 g\nMagnesio:
+    79 mg"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 93e16b68011b422478af2206ab0d86a7, type: 2}
   m_sharedMaterial: {fileID: 4884183735116069488, guid: 93e16b68011b422478af2206ab0d86a7, type: 2}
@@ -26542,13 +26477,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '...
-
-    ..
-
-    ...
-
-    ..'
+  m_text: "Cada 100 gr\nCalor\xEDas: 68 kcal\nProte\xEDnas: 2.6 g\nGlucosa: 5.4 g\nVitamina
+    C: 228.3 mg"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 93e16b68011b422478af2206ab0d86a7, type: 2}
   m_sharedMaterial: {fileID: 4884183735116069488, guid: 93e16b68011b422478af2206ab0d86a7, type: 2}
@@ -28148,13 +28078,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '...
-
-    ..
-
-    ...
-
-    ..'
+  m_text: "Cada 100 gr\nCalor\xEDas: 160 kcal\nProte\xEDnas: 2 g\nGlucosa: 0.2 g\nVitamina
+    B6: 0.26 mg"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 93e16b68011b422478af2206ab0d86a7, type: 2}
   m_sharedMaterial: {fileID: 4884183735116069488, guid: 93e16b68011b422478af2206ab0d86a7, type: 2}
@@ -29034,13 +28959,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '...
-
-    ..
-
-    ...
-
-    ..'
+  m_text: "Cada 100 gr\nCalor\xEDas: 47 kcal\nProte\xEDnas: 0.9 g\nGlucosa: 2.2 g\nVitamina
+    C: 53.2 mg"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 93e16b68011b422478af2206ab0d86a7, type: 2}
   m_sharedMaterial: {fileID: 4884183735116069488, guid: 93e16b68011b422478af2206ab0d86a7, type: 2}
@@ -29174,13 +29094,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '...
-
-    ..
-
-    ...
-
-    ..'
+  m_text: "Cada 100 gr\nCalor\xEDas: 89 kcal\nProte\xEDnas: 1.1 g\nGlucosa: 5.9 g\nPotasio:
+    358 mg"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 93e16b68011b422478af2206ab0d86a7, type: 2}
   m_sharedMaterial: {fileID: 4884183735116069488, guid: 93e16b68011b422478af2206ab0d86a7, type: 2}
@@ -29495,13 +29410,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '...
-
-    ..
-
-    ...
-
-    ..'
+  m_text: "Cada 100 gr\nCalor\xEDas: 230 kcal\nProte\xEDnas: 2.3 g\nHierro: 3.3 mg\nPotasio:
+    263 mg"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 93e16b68011b422478af2206ab0d86a7, type: 2}
   m_sharedMaterial: {fileID: 4884183735116069488, guid: 93e16b68011b422478af2206ab0d86a7, type: 2}
@@ -31082,13 +30992,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '...
-
-    ..
-
-    ...
-
-    ..'
+  m_text: "Cada 100 gr\nCalor\xEDas: 534 kcal\nProte\xEDnas: 18.3 g\nOmega-3: 22.8
+    g\nFibra: 27.3 g"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 93e16b68011b422478af2206ab0d86a7, type: 2}
   m_sharedMaterial: {fileID: 4884183735116069488, guid: 93e16b68011b422478af2206ab0d86a7, type: 2}
@@ -31478,13 +31383,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '...
-
-    ..
-
-    ...
-
-    ..'
+  m_text: "Cada 100 gr\nCalor\xEDas: 43 kcal\nProte\xEDnas: 0.5 g\nGlucosa: 2.7 g\nVitamina
+    C: 60.9 mg"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 93e16b68011b422478af2206ab0d86a7, type: 2}
   m_sharedMaterial: {fileID: 4884183735116069488, guid: 93e16b68011b422478af2206ab0d86a7, type: 2}
@@ -36269,13 +36169,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '...
-
-    ..
-
-    ...
-
-    ..'
+  m_text: "Cada 100 gr\nCalor\xEDas: 654 kcal\nProte\xEDnas: 15.2 g\nGlucosa: 2.6
+    g\nMagnesio: 158 mg"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 93e16b68011b422478af2206ab0d86a7, type: 2}
   m_sharedMaterial: {fileID: 4884183735116069488, guid: 93e16b68011b422478af2206ab0d86a7, type: 2}
@@ -36785,13 +36680,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '...
-
-    ..
-
-    ...
-
-    ..'
+  m_text: "Cada 100 gr\nCalor\xEDas: 34 kcal\nProte\xEDnas: 2.8 g\nGlucosa: 1.7 g\nVitamina
+    C: 89.2 mg"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 93e16b68011b422478af2206ab0d86a7, type: 2}
   m_sharedMaterial: {fileID: 4884183735116069488, guid: 93e16b68011b422478af2206ab0d86a7, type: 2}
@@ -43770,13 +43660,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '...
-
-    ..
-
-    ...
-
-    ..'
+  m_text: "Cada 100 gr\nCalor\xEDas: 18 kcal\nProte\xEDnas: 0.9 g\nGlucosa: 2.6 g\nVitamina
+    C: 13.7 mg"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 93e16b68011b422478af2206ab0d86a7, type: 2}
   m_sharedMaterial: {fileID: 4884183735116069488, guid: 93e16b68011b422478af2206ab0d86a7, type: 2}
@@ -45249,13 +45134,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '...
-
-    ..
-
-    ...
-
-    ..'
+  m_text: "Cada 100 gr\nCalor\xEDas: 546 kcal\nProte\xEDnas: 4.9 g\nGlucosa: 24 g\nMagnesio:
+    228 mg"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 93e16b68011b422478af2206ab0d86a7, type: 2}
   m_sharedMaterial: {fileID: 4884183735116069488, guid: 93e16b68011b422478af2206ab0d86a7, type: 2}
