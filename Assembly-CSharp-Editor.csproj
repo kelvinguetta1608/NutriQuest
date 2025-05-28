@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{862C0506-72EF-9BA4-23BC-1714735C82D7}</ProjectGuid>
+    <ProjectGuid>{D05FFF12-155E-ACE7-28D5-415B8796EF24}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -404,8 +404,8 @@
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.42f1\Editor\Data\Managed\UnityEditor.Graphs.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="UnityEditor.WebGL.Extensions">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.42f1\Editor\Data\PlaybackEngines\WebGLSupport\UnityEditor.WebGL.Extensions.dll</HintPath>
+    <Reference Include="UnityEditor.Android.Extensions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.42f1\Editor\Data\PlaybackEngines\AndroidPlayer\UnityEditor.Android.Extensions.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
@@ -454,6 +454,18 @@
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Android.Types">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.42f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Android.Gradle">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.42f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Gradle.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Android.GradleProject">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.42f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.GradleProject.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="mscorlib">
@@ -1207,51 +1219,51 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{C84A3097-B110-E7BA-504F-197E3350D3E9}</Project>
+      <Project>{587D82B9-B065-7954-007B-6C492089FE57}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
     <ProjectReference Include="ReadyPlayerMe.Samples.AvatarCreatorElements.csproj">
-      <Project>{4AD1392D-42C4-402C-EEF3-7415B3FDD627}</Project>
+      <Project>{AE2E90CD-E7FB-3FDD-DE7F-5799BECB59EB}</Project>
       <Name>ReadyPlayerMe.Samples.AvatarCreatorElements</Name>
     </ProjectReference>
     <ProjectReference Include="ReadyPlayerMe.AvatarCreator.Editor.csproj">
-      <Project>{BF59B2F7-7BB2-F7BC-C92D-F04D5B8A2DD0}</Project>
+      <Project>{62F6A12F-D514-A3CF-B768-025209ED1A8F}</Project>
       <Name>ReadyPlayerMe.AvatarCreator.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="ReadyPlayerMe.Core.csproj">
-      <Project>{354020BF-FBA8-BEFE-938A-BCCB4CCDF8DE}</Project>
+      <Project>{CE414F08-E906-59B1-81AE-B2744A8A9C0E}</Project>
       <Name>ReadyPlayerMe.Core</Name>
     </ProjectReference>
     <ProjectReference Include="ReadyPlayerMe.Samples.AvatarCreatorWizard.csproj">
-      <Project>{EAFE2707-D09B-514E-A435-0793FDF2D060}</Project>
+      <Project>{C9411CEE-01AF-B85C-3FFC-D4D814204CA2}</Project>
       <Name>ReadyPlayerMe.Samples.AvatarCreatorWizard</Name>
     </ProjectReference>
     <ProjectReference Include="ReadyPlayerMe.Samples.AvatarRenders.csproj">
-      <Project>{A913D04B-A284-F1F0-1F7B-A40254E4ED40}</Project>
+      <Project>{9918DEC7-58C3-5957-6739-A2C7BC5E9C13}</Project>
       <Name>ReadyPlayerMe.Samples.AvatarRenders</Name>
     </ProjectReference>
     <ProjectReference Include="ReadyPlayerMe.Samples.WebGLSample.csproj">
-      <Project>{B588AE08-A8B6-B135-39F9-C6A991A9D49C}</Project>
+      <Project>{A662626B-0559-1F5C-6094-D1356B64D779}</Project>
       <Name>ReadyPlayerMe.Samples.WebGLSample</Name>
     </ProjectReference>
     <ProjectReference Include="ReadyPlayerMe.Samples.QuickStart.csproj">
-      <Project>{FC41208C-95A7-3BAD-0401-21D633CE2C81}</Project>
+      <Project>{250BC519-E6C1-6346-A434-B41334452780}</Project>
       <Name>ReadyPlayerMe.Samples.QuickStart</Name>
     </ProjectReference>
     <ProjectReference Include="ReadyPlayerMe.Samples.AvatarLoading.csproj">
-      <Project>{7FE9E3F9-E080-DBDA-CA34-B08685FE82C1}</Project>
+      <Project>{A4D8AD52-BB68-376E-182B-2EC0FA414D16}</Project>
       <Name>ReadyPlayerMe.Samples.AvatarLoading</Name>
     </ProjectReference>
     <ProjectReference Include="ReadyPlayerMe.Core.WebGLSample.Editor.csproj">
-      <Project>{33823D90-AA6B-6AB4-E382-63D36F54A3E9}</Project>
+      <Project>{737EC015-575E-FF9C-EB70-2617273193EA}</Project>
       <Name>ReadyPlayerMe.Core.WebGLSample.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="ReadyPlayerMe.AvatarCreator.csproj">
-      <Project>{BC6B0FB0-15AE-96CD-E229-CA71970BE8E1}</Project>
+      <Project>{4F4A9F17-6128-FEA6-A6F3-0FFA7F7C8624}</Project>
       <Name>ReadyPlayerMe.AvatarCreator</Name>
     </ProjectReference>
     <ProjectReference Include="ReadyPlayerMe.Core.Editor.csproj">
-      <Project>{47B50438-C70C-C164-9C78-E9C71774FD58}</Project>
+      <Project>{713B1E99-A96E-4AFB-5518-8E92981B2888}</Project>
       <Name>ReadyPlayerMe.Core.Editor</Name>
     </ProjectReference>
   </ItemGroup>
