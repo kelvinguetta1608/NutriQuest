@@ -5,6 +5,9 @@ public class Ingrediente : MonoBehaviour
     public string nombreIngrediente; // Ejemplo: "Mango", "Manzana", etc.
     public GameObject objetoDentroLicuadora; // Prefab para mostrar dentro de la licuadora
 
+    // Material del ingrediente
+    public Material materialIngrediente;
+
     // Porcentajes para cada barra (de 0 a 100)
     public float Kcal;
     [Range(0, 100)] public float carbohidratos;
@@ -17,4 +20,3 @@ public class Ingrediente : MonoBehaviour
     [Range(0, 100)] public float fibra;
     [Range(0, 100)] public float antioxidantes;
 }
-
