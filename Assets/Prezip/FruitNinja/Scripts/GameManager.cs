@@ -14,14 +14,37 @@ public class GameManager : MonoBehaviour
     public TextMeshProUGUI scoreText;
     public TextMeshProUGUI livesText;
     public TextMeshProUGUI gameOverText;
+    public TextMeshProUGUI timerText;
     public Button restartButton;
     public bool gameIsOver;
+    public float tiempoRestante = 60f;
 
     // Startwerte für score und lives festlegen
     void Start()
     {
         score = 0;
         lives = 3;
+    }
+
+
+    void Update()
+    {
+        if (!gameIsOver)
+        {
+            // Reducir el tiempo restante
+            tiempoRestante -= Time.deltaTime;
+
+            if (tiempoRestante <= 0)
+            {
+                tiempoRestante = 0;
+                GameOver();
+            }
+
+
+            int minutos = Mathf.FloorToInt(tiempoRestante / 60);
+            int segundos = Mathf.FloorToInt(tiempoRestante % 60);
+            timerText.text = string.Format("{0:00}:{1:00}", minutos, segundos);
+        }
     }
 
     // Erhöht den Score um die Anzahl der Punkte, die der Fruit zugewiesen wurden
