@@ -13,13 +13,32 @@ MonoBehaviour:
   m_Name: "Sue\xF1o"
   m_EditorClassIdentifier: 
   nombre: "Sue\xF1o"
-  descripcion: 
-  hierro: 0.3
-  vitaminaC: 0.2
-  omega3: 0.5
-  proteinas: 0.1
-  magnesio: 0.9
-  vitaminaB: 0.6
-  fibra: 0.1
-  antioxidantes: 0.4
-  carbohidratos: 0.1
+  descripcion: "El magnesio y las vitaminas B y C est\xE1n asociados con una mejor
+    calidad del sue\xF1o y la regulaci\xF3n del ritmo circadiano."
+  hierro:
+    minimo: 10
+    maximo: 40
+  vitaminaC:
+    minimo: 30
+    maximo: 60
+  omega3:
+    minimo: 30
+    maximo: 60
+  proteinas:
+    minimo: 30
+    maximo: 60
+  magnesio:
+    minimo: 60
+    maximo: 90
+  vitaminaB:
+    minimo: 40
+    maximo: 70
+  fibra:
+    minimo: 40
+    maximo: 70
+  antioxidantes:
+    minimo: 50
+    maximo: 80
+  carbohidratos:
+    minimo: 30
+    maximo: 60
