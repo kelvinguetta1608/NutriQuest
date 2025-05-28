@@ -26,7 +26,6 @@ public class GameManager : MonoBehaviour
         lives = 3;
     }
 
-
     void Update()
     {
         if (!gameIsOver)
@@ -46,6 +45,7 @@ public class GameManager : MonoBehaviour
             timerText.text = string.Format("{0:00}:{1:00}", minutos, segundos);
         }
     }
+
 
     // Erhöht den Score um die Anzahl der Punkte, die der Fruit zugewiesen wurden
     public void UpdateTheScore(int scorePointsToAdd)

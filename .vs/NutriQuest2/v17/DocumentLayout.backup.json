@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "E:\\Unity\\NutriQuest2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Unity\\NutriQuest2\\Assets\\Scripts\\Draggable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Draggable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{322012F6-7FBB-B913-2FC5-2B8374B0606C}|Assembly-CSharp.csproj|e:\\unity\\nutriquest2\\assets\\prezip\\fruitninja\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{322012F6-7FBB-B913-2FC5-2B8374B0606C}|Assembly-CSharp.csproj|solutionrelative:assets\\prezip\\fruitninja\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Unity\\NutriQuest2\\Assets\\Scripts\\Layer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Layer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Unity\\NutriQuest2\\Assets\\Scripts\\DragController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\DragController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{322012F6-7FBB-B913-2FC5-2B8374B0606C}|Assembly-CSharp.csproj|e:\\unity\\nutriquest2\\assets\\scripts\\loadscena.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{322012F6-7FBB-B913-2FC5-2B8374B0606C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\loadscena.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,44 +18,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Draggable.cs",
-              "DocumentMoniker": "E:\\Unity\\NutriQuest2\\Assets\\Scripts\\Draggable.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Draggable.cs",
-              "ToolTip": "E:\\Unity\\NutriQuest2\\Assets\\Scripts\\Draggable.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Draggable.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "LoadScena.cs",
+              "DocumentMoniker": "E:\\Unity\\NutriQuest2\\Assets\\Scripts\\LoadScena.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\LoadScena.cs",
+              "ToolTip": "E:\\Unity\\NutriQuest2\\Assets\\Scripts\\LoadScena.cs",
+              "RelativeToolTip": "Assets\\Scripts\\LoadScena.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T21:27:16.275Z",
+              "WhenOpened": "2025-05-27T22:57:21.303Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Layer.cs",
-              "DocumentMoniker": "E:\\Unity\\NutriQuest2\\Assets\\Scripts\\Layer.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Layer.cs",
-              "ToolTip": "E:\\Unity\\NutriQuest2\\Assets\\Scripts\\Layer.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Layer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "E:\\Unity\\NutriQuest2\\Assets\\Prezip\\FruitNinja\\Scripts\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Prezip\\FruitNinja\\Scripts\\GameManager.cs",
+              "ToolTip": "E:\\Unity\\NutriQuest2\\Assets\\Prezip\\FruitNinja\\Scripts\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Prezip\\FruitNinja\\Scripts\\GameManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T21:26:48.432Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DragController.cs",
-              "DocumentMoniker": "E:\\Unity\\NutriQuest2\\Assets\\Scripts\\DragController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\DragController.cs",
-              "ToolTip": "E:\\Unity\\NutriQuest2\\Assets\\Scripts\\DragController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\DragController.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAqwF0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T21:25:43.655Z"
+              "WhenOpened": "2025-05-27T22:56:09.747Z",
+              "EditorCaption": ""
             }
           ]
         }
