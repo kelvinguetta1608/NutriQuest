@@ -691,6 +691,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nombreIngrediente: Pepino
   objetoDentroLicuadora: {fileID: 0}
+  materialIngrediente: {fileID: 0}
   Kcal: 10
   carbohidratos: 20
   proteinas: 10
@@ -5928,6 +5929,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nombreIngrediente: Zanahoria
   objetoDentroLicuadora: {fileID: 0}
+  materialIngrediente: {fileID: 0}
   Kcal: 40
   carbohidratos: 50
   proteinas: 10
@@ -6762,6 +6764,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nombreIngrediente: Berro
   objetoDentroLicuadora: {fileID: 0}
+  materialIngrediente: {fileID: 0}
   Kcal: 20
   carbohidratos: 10
   proteinas: 20
@@ -9992,6 +9995,85 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 396414438}
   m_CullTransparentMesh: 1
+--- !u!1001 &404015529
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1862411162}
+    m_Modifications:
+    - target: {fileID: 460460571438646272, guid: a34af26ebb546154bbca03275e786e55, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.022265697
+      objectReference: {fileID: 0}
+    - target: {fileID: 460460571438646272, guid: a34af26ebb546154bbca03275e786e55, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.022265716
+      objectReference: {fileID: 0}
+    - target: {fileID: 460460571438646272, guid: a34af26ebb546154bbca03275e786e55, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.022265716
+      objectReference: {fileID: 0}
+    - target: {fileID: 460460571438646272, guid: a34af26ebb546154bbca03275e786e55, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.9499999
+      objectReference: {fileID: 0}
+    - target: {fileID: 460460571438646272, guid: a34af26ebb546154bbca03275e786e55, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.2473497
+      objectReference: {fileID: 0}
+    - target: {fileID: 460460571438646272, guid: a34af26ebb546154bbca03275e786e55, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 4.6224575
+      objectReference: {fileID: 0}
+    - target: {fileID: 460460571438646272, guid: a34af26ebb546154bbca03275e786e55, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.7956576
+      objectReference: {fileID: 0}
+    - target: {fileID: 460460571438646272, guid: a34af26ebb546154bbca03275e786e55, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.6057466
+      objectReference: {fileID: 0}
+    - target: {fileID: 460460571438646272, guid: a34af26ebb546154bbca03275e786e55, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 460460571438646272, guid: a34af26ebb546154bbca03275e786e55, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 460460571438646272, guid: a34af26ebb546154bbca03275e786e55, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -270
+      objectReference: {fileID: 0}
+    - target: {fileID: 460460571438646272, guid: a34af26ebb546154bbca03275e786e55, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 460460571438646272, guid: a34af26ebb546154bbca03275e786e55, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1510866958264458365, guid: a34af26ebb546154bbca03275e786e55, type: 3}
+      propertyPath: m_Name
+      value: Bebida
+      objectReference: {fileID: 0}
+    - target: {fileID: 1510866958264458365, guid: a34af26ebb546154bbca03275e786e55, type: 3}
+      propertyPath: m_TagString
+      value: Bebida
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1510866958264458365, guid: a34af26ebb546154bbca03275e786e55, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1798661510}
+    - targetCorrespondingSourceObject: {fileID: 1510866958264458365, guid: a34af26ebb546154bbca03275e786e55, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1798661509}
+  m_SourcePrefab: {fileID: 100100000, guid: a34af26ebb546154bbca03275e786e55, type: 3}
 --- !u!1 &412563495
 GameObject:
   m_ObjectHideFlags: 0
@@ -11183,6 +11265,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nombreIngrediente: Canela
   objetoDentroLicuadora: {fileID: 0}
+  materialIngrediente: {fileID: 0}
   Kcal: 10
   carbohidratos: 30
   proteinas: 10
@@ -12453,6 +12536,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nombreIngrediente: Manzana
   objetoDentroLicuadora: {fileID: 0}
+  materialIngrediente: {fileID: 0}
   Kcal: 40
   carbohidratos: 60
   proteinas: 10
@@ -13259,6 +13343,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nombreIngrediente: Apio
   objetoDentroLicuadora: {fileID: 0}
+  materialIngrediente: {fileID: 0}
   Kcal: 10
   carbohidratos: 10
   proteinas: 10
@@ -15399,6 +15484,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nombreIngrediente: Leche
   objetoDentroLicuadora: {fileID: 0}
+  materialIngrediente: {fileID: 0}
   Kcal: 70
   carbohidratos: 50
   proteinas: 60
@@ -16975,6 +17061,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nombreIngrediente: Mango
   objetoDentroLicuadora: {fileID: 0}
+  materialIngrediente: {fileID: 0}
   Kcal: 60
   carbohidratos: 70
   proteinas: 20
@@ -17419,6 +17506,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nombreIngrediente: Lechuga
   objetoDentroLicuadora: {fileID: 0}
+  materialIngrediente: {fileID: 0}
   Kcal: 10
   carbohidratos: 20
   proteinas: 10
@@ -20372,6 +20460,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nombreIngrediente: Mani
   objetoDentroLicuadora: {fileID: 0}
+  materialIngrediente: {fileID: 0}
   Kcal: 90
   carbohidratos: 40
   proteinas: 80
@@ -26692,6 +26781,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nombreIngrediente: Miel
   objetoDentroLicuadora: {fileID: 0}
+  materialIngrediente: {fileID: 0}
   Kcal: 80
   carbohidratos: 90
   proteinas: 0
@@ -29266,6 +29356,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8379300793789124931, guid: e8d9aeff757ce0846a4139efafbb5eb9, type: 3}
+      propertyPath: m_TagString
+      value: Fresa
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
     - {fileID: 8843599707521076484, guid: e8d9aeff757ce0846a4139efafbb5eb9, type: 3}
@@ -30248,6 +30342,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nombreIngrediente: Avena
   objetoDentroLicuadora: {fileID: 0}
+  materialIngrediente: {fileID: 0}
   Kcal: 70
   carbohidratos: 70
   proteinas: 60
@@ -30881,6 +30976,10 @@ PrefabInstance:
     - target: {fileID: 8379300793789124931, guid: e8d9aeff757ce0846a4139efafbb5eb9, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8379300793789124931, guid: e8d9aeff757ce0846a4139efafbb5eb9, type: 3}
+      propertyPath: m_TagString
+      value: Banano
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
@@ -32540,6 +32639,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nombreIngrediente: Papaya
   objetoDentroLicuadora: {fileID: 0}
+  materialIngrediente: {fileID: 0}
   Kcal: 50
   carbohidratos: 50
   proteinas: 10
@@ -34047,6 +34147,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nombreIngrediente: Banano
   objetoDentroLicuadora: {fileID: 0}
+  materialIngrediente: {fileID: 0}
   Kcal: 60
   carbohidratos: 80
   proteinas: 20
@@ -41420,6 +41521,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nombreIngrediente: Berenjena
   objetoDentroLicuadora: {fileID: 0}
+  materialIngrediente: {fileID: 0}
   Kcal: 20
   carbohidratos: 30
   proteinas: 20
@@ -41939,6 +42041,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nombreIngrediente: Yogurt
   objetoDentroLicuadora: {fileID: 0}
+  materialIngrediente: {fileID: 0}
   Kcal: 60
   carbohidratos: 40
   proteinas: 70
@@ -44448,6 +44551,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nombreIngrediente: Fresa
   objetoDentroLicuadora: {fileID: 0}
+  materialIngrediente: {fileID: 0}
   Kcal: 30
   carbohidratos: 40
   proteinas: 10
@@ -47411,6 +47515,55 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1797656214}
   m_CullTransparentMesh: 1
+--- !u!1 &1798661507 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1510866958264458365, guid: a34af26ebb546154bbca03275e786e55, type: 3}
+  m_PrefabInstance: {fileID: 404015529}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1798661508 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 460460571438646272, guid: a34af26ebb546154bbca03275e786e55, type: 3}
+  m_PrefabInstance: {fileID: 404015529}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1798661509
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1798661507}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 76.66386, y: 76.66387, z: 45.834274}
+  m_Center: {x: 11.052924, y: -4.804799, z: 28.664665}
+--- !u!114 &1798661510
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1798661507}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6066690027c80154c821f0404a9ecd2c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  liquidoRenderer: {fileID: 1798661511}
+--- !u!23 &1798661511 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 406788912572546156, guid: a34af26ebb546154bbca03275e786e55, type: 3}
+  m_PrefabInstance: {fileID: 404015529}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1825060999
 GameObject:
   m_ObjectHideFlags: 0
@@ -48245,6 +48398,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1106036413}
+  - {fileID: 1798661508}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 15.435, y: 0, z: 0}
 --- !u!114 &1862411163
@@ -48476,6 +48630,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nombreIngrediente: Mango
   objetoDentroLicuadora: {fileID: 7073071706427019174, guid: ef4fbf0ec779af541b89f1ec637ff341, type: 3}
+  materialIngrediente: {fileID: 0}
   Kcal: 0
   carbohidratos: 37.3
   proteinas: 0
@@ -48920,6 +49075,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nombreIngrediente: Espinaca
   objetoDentroLicuadora: {fileID: 0}
+  materialIngrediente: {fileID: 0}
   Kcal: 20
   carbohidratos: 20
   proteinas: 30
@@ -51558,6 +51714,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nombreIngrediente: Agua
   objetoDentroLicuadora: {fileID: 0}
+  materialIngrediente: {fileID: 0}
   Kcal: 0
   carbohidratos: 0
   proteinas: 0
@@ -54243,6 +54400,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nombreIngrediente: LecheAlmendras
   objetoDentroLicuadora: {fileID: 0}
+  materialIngrediente: {fileID: 0}
   Kcal: 40
   carbohidratos: 30
   proteinas: 20
@@ -56127,6 +56285,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nombreIngrediente: Kale
   objetoDentroLicuadora: {fileID: 0}
+  materialIngrediente: {fileID: 0}
   Kcal: 30
   carbohidratos: 30
   proteinas: 30
@@ -56341,6 +56500,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8379300793789124931, guid: e8d9aeff757ce0846a4139efafbb5eb9, type: 3}
+      propertyPath: m_TagString
+      value: Manzana
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
     - {fileID: 8843599707521076484, guid: e8d9aeff757ce0846a4139efafbb5eb9, type: 3}
@@ -56427,6 +56590,10 @@ PrefabInstance:
     - target: {fileID: 7073071706427019174, guid: ef4fbf0ec779af541b89f1ec637ff341, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7073071706427019174, guid: ef4fbf0ec779af541b89f1ec637ff341, type: 3}
+      propertyPath: m_TagString
+      value: Mango
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
