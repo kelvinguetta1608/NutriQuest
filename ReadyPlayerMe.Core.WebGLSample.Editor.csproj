@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{737EC015-575E-FF9C-EB70-2617273193EA}</ProjectGuid>
+    <ProjectGuid>{33823D90-AA6B-6AB4-E382-63D36F54A3E9}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>ReadyPlayerMe.Core.WebGLSample.Editor</AssemblyName>
@@ -407,8 +407,8 @@
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.42f1\Editor\Data\Managed\UnityEditor.Graphs.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="UnityEditor.Android.Extensions">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.42f1\Editor\Data\PlaybackEngines\AndroidPlayer\UnityEditor.Android.Extensions.dll</HintPath>
+    <Reference Include="UnityEditor.WebGL.Extensions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.42f1\Editor\Data\PlaybackEngines\WebGLSupport\UnityEditor.WebGL.Extensions.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
@@ -457,18 +457,6 @@
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.Android.Types">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.42f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.Android.Gradle">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.42f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Gradle.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.Android.GradleProject">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.42f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.GradleProject.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="mscorlib">
@@ -990,11 +978,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="ReadyPlayerMe.Core.csproj">
-      <Project>{CE414F08-E906-59B1-81AE-B2744A8A9C0E}</Project>
+      <Project>{354020BF-FBA8-BEFE-938A-BCCB4CCDF8DE}</Project>
       <Name>ReadyPlayerMe.Core</Name>
     </ProjectReference>
     <ProjectReference Include="ReadyPlayerMe.Core.Editor.csproj">
-      <Project>{713B1E99-A96E-4AFB-5518-8E92981B2888}</Project>
+      <Project>{47B50438-C70C-C164-9C78-E9C71774FD58}</Project>
       <Name>ReadyPlayerMe.Core.Editor</Name>
     </ProjectReference>
   </ItemGroup>
