@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{587D82B9-B065-7954-007B-6C492089FE57}</ProjectGuid>
+    <ProjectGuid>{C84A3097-B110-E7BA-504F-197E3350D3E9}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -60,12 +60,9 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.42f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Maca\Scripts\SelectorNecesidad.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
     <Compile Include="Assets\Prezip\FruitNinja\Scripts\Blade.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
-    <Compile Include="Assets\Maca\Scripts\BotonPrueba.cs" />
-    <Compile Include="Assets\3dobj\alimentos\LicuadoraManager.cs" />
     <Compile Include="Assets\Prezip\FruitNinja\Scripts\Fruits.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
@@ -77,20 +74,15 @@
     <Compile Include="Assets\Scripts\CreateAvatar.cs" />
     <Compile Include="Assets\Prezip\FruitNinja\Scripts\SpawnObjects.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
-    <Compile Include="Assets\Maca\Scripts\DatosNutricionalesCompartidos.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
     <Compile Include="Assets\Prezip\FruitNinja\Scripts\GameManager.cs" />
-    <Compile Include="Assets\Maca\Scripts\ContenedorDeDatosPersistente.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ObjectSpin.cs" />
     <Compile Include="Assets\Scripts\DragController.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
-    <Compile Include="Assets\Maca\Scripts\ReferenciaDatos.cs" />
-    <Compile Include="Assets\Scripts\ModoJuego.cs" />
-    <Compile Include="Assets\Scripts\Arrastrable3D.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextConsoleSimulator.cs" />
@@ -105,22 +97,18 @@
     <Compile Include="Assets\Scripts\Layer.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
-    <Compile Include="Assets\3dobj\alimentos\BarraNutricional.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
     <Compile Include="Assets\Scripts\InventarioUIManager.cs" />
-    <Compile Include="Assets\Scripts\SeleccionarModo.cs" />
-    <Compile Include="Assets\Scripts\DetectorDePantalla.cs" />
     <Compile Include="Assets\Scripts\GameObjectActivator.cs" />
     <Compile Include="Assets\Scripts\Draggable.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
-    <Compile Include="Assets\Maca\Scripts\NecesidadNutricional.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
     <Compile Include="Assets\Maca\Scripts\ScrollSeccionDetector.cs" />
     <Compile Include="Assets\Scripts\LoadScena.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
-    <Compile Include="Assets\3dobj\alimentos\Ingrediente.cs" />
+    <Compile Include="Assets\Maca\Scripts\IngredienteSelector.cs" />
     <Compile Include="Assets\Prezip\FruitNinja\Scripts\BombScript.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
@@ -494,18 +482,6 @@
     </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@3.2.1\Runtime\Newtonsoft.Json.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.Android.Types">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.42f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.Android.Gradle">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.42f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Gradle.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.Android.GradleProject">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.42f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.GradleProject.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="netstandard">
@@ -1239,47 +1215,47 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="ReadyPlayerMe.Samples.AvatarCreatorElements.csproj">
-      <Project>{AE2E90CD-E7FB-3FDD-DE7F-5799BECB59EB}</Project>
+      <Project>{4AD1392D-42C4-402C-EEF3-7415B3FDD627}</Project>
       <Name>ReadyPlayerMe.Samples.AvatarCreatorElements</Name>
     </ProjectReference>
     <ProjectReference Include="ReadyPlayerMe.AvatarCreator.Editor.csproj">
-      <Project>{62F6A12F-D514-A3CF-B768-025209ED1A8F}</Project>
+      <Project>{BF59B2F7-7BB2-F7BC-C92D-F04D5B8A2DD0}</Project>
       <Name>ReadyPlayerMe.AvatarCreator.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="ReadyPlayerMe.Core.csproj">
-      <Project>{CE414F08-E906-59B1-81AE-B2744A8A9C0E}</Project>
+      <Project>{354020BF-FBA8-BEFE-938A-BCCB4CCDF8DE}</Project>
       <Name>ReadyPlayerMe.Core</Name>
     </ProjectReference>
     <ProjectReference Include="ReadyPlayerMe.Samples.AvatarCreatorWizard.csproj">
-      <Project>{C9411CEE-01AF-B85C-3FFC-D4D814204CA2}</Project>
+      <Project>{EAFE2707-D09B-514E-A435-0793FDF2D060}</Project>
       <Name>ReadyPlayerMe.Samples.AvatarCreatorWizard</Name>
     </ProjectReference>
     <ProjectReference Include="ReadyPlayerMe.Samples.AvatarRenders.csproj">
-      <Project>{9918DEC7-58C3-5957-6739-A2C7BC5E9C13}</Project>
+      <Project>{A913D04B-A284-F1F0-1F7B-A40254E4ED40}</Project>
       <Name>ReadyPlayerMe.Samples.AvatarRenders</Name>
     </ProjectReference>
     <ProjectReference Include="ReadyPlayerMe.Samples.WebGLSample.csproj">
-      <Project>{A662626B-0559-1F5C-6094-D1356B64D779}</Project>
+      <Project>{B588AE08-A8B6-B135-39F9-C6A991A9D49C}</Project>
       <Name>ReadyPlayerMe.Samples.WebGLSample</Name>
     </ProjectReference>
     <ProjectReference Include="ReadyPlayerMe.Samples.QuickStart.csproj">
-      <Project>{250BC519-E6C1-6346-A434-B41334452780}</Project>
+      <Project>{FC41208C-95A7-3BAD-0401-21D633CE2C81}</Project>
       <Name>ReadyPlayerMe.Samples.QuickStart</Name>
     </ProjectReference>
     <ProjectReference Include="ReadyPlayerMe.Samples.AvatarLoading.csproj">
-      <Project>{A4D8AD52-BB68-376E-182B-2EC0FA414D16}</Project>
+      <Project>{7FE9E3F9-E080-DBDA-CA34-B08685FE82C1}</Project>
       <Name>ReadyPlayerMe.Samples.AvatarLoading</Name>
     </ProjectReference>
     <ProjectReference Include="ReadyPlayerMe.Core.WebGLSample.Editor.csproj">
-      <Project>{737EC015-575E-FF9C-EB70-2617273193EA}</Project>
+      <Project>{33823D90-AA6B-6AB4-E382-63D36F54A3E9}</Project>
       <Name>ReadyPlayerMe.Core.WebGLSample.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="ReadyPlayerMe.AvatarCreator.csproj">
-      <Project>{4F4A9F17-6128-FEA6-A6F3-0FFA7F7C8624}</Project>
+      <Project>{BC6B0FB0-15AE-96CD-E229-CA71970BE8E1}</Project>
       <Name>ReadyPlayerMe.AvatarCreator</Name>
     </ProjectReference>
     <ProjectReference Include="ReadyPlayerMe.Core.Editor.csproj">
-      <Project>{713B1E99-A96E-4AFB-5518-8E92981B2888}</Project>
+      <Project>{47B50438-C70C-C164-9C78-E9C71774FD58}</Project>
       <Name>ReadyPlayerMe.Core.Editor</Name>
     </ProjectReference>
   </ItemGroup>
