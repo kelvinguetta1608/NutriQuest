@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6444e89508e7bd2438ed9c7b2ff42028, type: 3}
+  m_Name: "Sue\xF1o"
+  m_EditorClassIdentifier: 
+  nombre: "Sue\xF1o"
+  descripcion: 
+  hierro: 0.3
+  vitaminaC: 0.2
+  omega3: 0.5
+  proteinas: 0.1
+  magnesio: 0.9
+  vitaminaB: 0.6
+  fibra: 0.1
+  antioxidantes: 0.4
+  carbohidratos: 0.1

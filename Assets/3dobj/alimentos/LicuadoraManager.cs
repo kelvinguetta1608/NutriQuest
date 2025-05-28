@@ -3,10 +3,8 @@ using System.Collections.Generic;
 
 public class LicuadoraManager : MonoBehaviour
 {
-    // Lista de ingredientes que están dentro de la licuadora
     public List<Ingrediente> ingredientesDentro = new List<Ingrediente>();
 
-    // Referencias a las barras nutricionales en la UI
     public BarraNutricional barraHierro;
     public BarraNutricional barraVitaminaC;
     public BarraNutricional barraOmega3;
@@ -17,7 +15,8 @@ public class LicuadoraManager : MonoBehaviour
     public BarraNutricional barraCarboH;
     public BarraNutricional barraMag;
 
-    // Llamado desde objetos arrastrables al soltarse dentro de la licuadora
+    public NecesidadNutricional necesidad; // Se debe establecer desde otro script al cargar la necesidad seleccionada
+
     public void AgregarIngrediente(Ingrediente nuevo)
     {
         if (nuevo == null)
@@ -32,45 +31,45 @@ public class LicuadoraManager : MonoBehaviour
         CalcularYActualizarBarras();
     }
 
-    // Calcula los totales de nutrientes y actualiza las barras de progreso
     private void CalcularYActualizarBarras()
     {
-        float totalHierro = 0f;
-        float totalVitC = 0f;
-        float totalOmega3 = 0f;
-        float totalProteina = 0f;
-        float totalMag = 0f;
-        float totalVitaminaB = 0f;
-        float totalFibra = 0f;
-        float totalAntiOx = 0f;
-        float totalCarboH = 0f;
+        float hierro = 0, vitC = 0, omega3 = 0, proteinas = 0, magnesio = 0;
+        float vitaminaB = 0, fibra = 0, antioxidantes = 0, carbohidratos = 0;
 
         foreach (Ingrediente ing in ingredientesDentro)
         {
-            totalHierro += ing.hierro;
-            totalVitC += ing.vitaminaC;
-            totalOmega3 += ing.omega3;
-            totalProteina += ing.proteinas;
-            totalMag += ing.magnesio;
-            totalVitaminaB += ing.vitaminaB;
-            totalFibra += ing.fibra;
-            totalAntiOx += ing.antioxidantes;
-            totalCarboH += ing.carbohidratos;
+            hierro += ing.hierro;
+            vitC += ing.vitaminaC;
+            omega3 += ing.omega3;
+            proteinas += ing.proteinas;
+            magnesio += ing.magnesio;
+            vitaminaB += ing.vitaminaB;
+            fibra += ing.fibra;
+            antioxidantes += ing.antioxidantes;
+            carbohidratos += ing.carbohidratos;
         }
 
-        // Suponiendo que 100 es el valor ideal para llenar la barra (100%)
-        barraHierro?.ActualizarBarra(totalHierro / 100f);
-        barraVitaminaC?.ActualizarBarra(totalVitC / 100f);
-        barraOmega3?.ActualizarBarra(totalOmega3 / 100f);
-        barraProteina?.ActualizarBarra(totalProteina / 100f);
-        barraMag?.ActualizarBarra(totalMag / 100f);
-        barraVitaminaB?.ActualizarBarra(totalVitaminaB / 100f);
-        barraFibra?.ActualizarBarra(totalFibra / 100f);
-        barraAntiOx?.ActualizarBarra(totalAntiOx / 100f);
-        barraCarboH?.ActualizarBarra(totalCarboH / 100f);
+        ActualizarBarra(barraHierro, hierro, necesidad.hierro);
+        ActualizarBarra(barraVitaminaC, vitC, necesidad.vitaminaC);
+        ActualizarBarra(barraOmega3, omega3, necesidad.omega3);
+        ActualizarBarra(barraProteina, proteinas, necesidad.proteinas);
+        ActualizarBarra(barraMag, magnesio, necesidad.magnesio);
+        ActualizarBarra(barraVitaminaB, vitaminaB, necesidad.vitaminaB);
+        ActualizarBarra(barraFibra, fibra, necesidad.fibra);
+        ActualizarBarra(barraAntiOx, antioxidantes, necesidad.antioxidantes);
+        ActualizarBarra(barraCarboH, carbohidratos, necesidad.carbohidratos);
     }
 
-    // Vaciar la licuadora y reiniciar barras
+    private void ActualizarBarra(BarraNutricional barra, float valorTotal, RangoNutriente rango)
+    {
+        if (barra == null) return;
+
+        float rangoMedio = (rango.minimo + rango.maximo) / 2f;
+        float porcentaje = valorTotal / rangoMedio;
+
+        barra.ActualizarBarra(porcentaje);
+    }
+
     public void VaciarLicuadora()
     {
         ingredientesDentro.Clear();

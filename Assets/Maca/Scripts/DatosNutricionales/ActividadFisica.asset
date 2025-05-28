@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6444e89508e7bd2438ed9c7b2ff42028, type: 3}
+  m_Name: ActividadFisica
+  m_EditorClassIdentifier: 
+  nombre: "ActividadF\xEDsica"
+  descripcion: 
+  hierro: 0.6
+  vitaminaC: 0.4
+  omega3: 0.6
+  proteinas: 0.9
+  magnesio: 0.4
+  vitaminaB: 0.5
+  fibra: 0.2
+  antioxidantes: 0.3
+  carbohidratos: 0.8
