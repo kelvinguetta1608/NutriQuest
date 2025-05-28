@@ -26,4 +26,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Inicio.unity
     guid: 97c084956b4ae034e9908819a67d5f2f
+  - enabled: 1
+    path: Assets/Scenes/EleccionBatido.unity
+    guid: 3069c4f8aca927246887e6f1b29234fe
+  - enabled: 1
+    path: Assets/Scenes/AR.unity
+    guid: 596d692fced76b6428fa56040dd896d6
   m_configObjects: {}

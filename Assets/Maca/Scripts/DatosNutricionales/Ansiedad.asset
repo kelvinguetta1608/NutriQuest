@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6444e89508e7bd2438ed9c7b2ff42028, type: 3}
+  m_Name: Ansiedad
+  m_EditorClassIdentifier: 
+  nombre: Ansiedad
+  descripcion: 
+  hierro: 0
+  vitaminaC: 0
+  omega3: 0
+  proteinas: 0
+  magnesio: 0
+  vitaminaB: 0
+  fibra: 0
+  antioxidantes: 0
+  carbohidratos: 0
