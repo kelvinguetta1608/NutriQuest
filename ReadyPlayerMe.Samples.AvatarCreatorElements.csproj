@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{AE2E90CD-E7FB-3FDD-DE7F-5799BECB59EB}</ProjectGuid>
+    <ProjectGuid>{4AD1392D-42C4-402C-EEF3-7415B3FDD627}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>ReadyPlayerMe.Samples.AvatarCreatorElements</AssemblyName>
@@ -964,11 +964,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="ReadyPlayerMe.AvatarCreator.csproj">
-      <Project>{4F4A9F17-6128-FEA6-A6F3-0FFA7F7C8624}</Project>
+      <Project>{BC6B0FB0-15AE-96CD-E229-CA71970BE8E1}</Project>
       <Name>ReadyPlayerMe.AvatarCreator</Name>
     </ProjectReference>
     <ProjectReference Include="ReadyPlayerMe.Core.csproj">
-      <Project>{CE414F08-E906-59B1-81AE-B2744A8A9C0E}</Project>
+      <Project>{354020BF-FBA8-BEFE-938A-BCCB4CCDF8DE}</Project>
       <Name>ReadyPlayerMe.Core</Name>
     </ProjectReference>
   </ItemGroup>

@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{CE414F08-E906-59B1-81AE-B2744A8A9C0E}</ProjectGuid>
+    <ProjectGuid>{354020BF-FBA8-BEFE-938A-BCCB4CCDF8DE}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>ReadyPlayerMe.Core</AssemblyName>

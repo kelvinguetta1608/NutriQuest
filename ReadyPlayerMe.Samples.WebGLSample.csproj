@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{A662626B-0559-1F5C-6094-D1356B64D779}</ProjectGuid>
+    <ProjectGuid>{B588AE08-A8B6-B135-39F9-C6A991A9D49C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>ReadyPlayerMe.Samples.WebGLSample</AssemblyName>
@@ -965,7 +965,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="ReadyPlayerMe.Core.csproj">
-      <Project>{CE414F08-E906-59B1-81AE-B2744A8A9C0E}</Project>
+      <Project>{354020BF-FBA8-BEFE-938A-BCCB4CCDF8DE}</Project>
       <Name>ReadyPlayerMe.Core</Name>
     </ProjectReference>
   </ItemGroup>

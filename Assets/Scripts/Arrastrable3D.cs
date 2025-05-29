@@ -51,6 +51,12 @@ public class Arrastrable3D : MonoBehaviour
             {
                 StartCoroutine(ProcesarIngrediente());
             }
+            // Si el ingrediente se suelta fuera de la licuadora y no fue procesado,
+            // puedes añadir lógica aquí para que vuelva a su posición original o se destruya.
+            // else if (!dentroDeLicuadora && !yaProcesado)
+            // {
+            //     // Lógica para devolver el objeto, por ejemplo.
+            // }
         }
     }
 
@@ -74,7 +80,15 @@ public class Arrastrable3D : MonoBehaviour
             licuadoraManager.AgregarIngrediente(ingrediente);
         }
 
-        gameObject.SetActive(false);
+        // --- ¡EL CAMBIO VA AQUÍ! ---
+        // Espera un frame para que los suscriptores del evento (como IngredienteColorTrigger)
+        // tengan la oportunidad de procesar el evento antes de que el GameObject sea destruido.
+        yield return null;
+
+        // Destruye el GameObject completamente
+        Destroy(gameObject);
+
+        Debug.Log("Ingrediente destruido después de ser procesado.");
     }
 
     private IEnumerator MoverConParabola(Vector3 inicio, Vector3 fin, float duracion)
@@ -93,17 +107,22 @@ public class Arrastrable3D : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        // Asegúrate de que el collider que tiene el tag "Licuadora"
+        // sea el collider principal del área de caída de la licuadora.
         if (other.CompareTag("Licuadora"))
         {
             dentroDeLicuadora = true;
         }
 
+        // Esta lógica ya no debería destruirse prematuramente si el tag "Bebida"
+        // no se usa en el objeto visual del líquido.
+        // Se asume que este es un tag para otros objetos no deseados, como la bebida final.
         if (other.CompareTag("Bebida"))
         {
             Destroy(gameObject); // Elimina este objeto al tocar algo con tag "Bebida"
+            Debug.Log("Ingrediente destruido por colisionar con 'Bebida'.");
         }
     }
-
 
     private void OnTriggerExit(Collider other)
     {

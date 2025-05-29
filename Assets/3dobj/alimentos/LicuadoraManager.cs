@@ -1,18 +1,13 @@
 ﻿using UnityEngine;
 using System.Collections.Generic;
-using TMPro;
-
-[System.Serializable]
-public class RangoNutriente
-{
-    public float minimo;
-    public float maximo;
-}
+using TMPro; // ¡Importante! Necesitas este namespace para TextMeshPro
 
 public class LicuadoraManager : MonoBehaviour
 {
+    // Lista de ingredientes que están dentro de la licuadora
     public List<Ingrediente> ingredientesDentro = new List<Ingrediente>();
 
+    // Referencias a las barras nutricionales en la UI
     public BarraNutricional barraHierro;
     public BarraNutricional barraVitaminaC;
     public BarraNutricional barraOmega3;
@@ -23,113 +18,101 @@ public class LicuadoraManager : MonoBehaviour
     public BarraNutricional barraCarboH;
     public BarraNutricional barraMag;
 
-    public TextMeshProUGUI mensajeResultado;
+    // --- NUEVO: REFERENCIA A TEXTMESHPRO Y CALORÍAS TOTALES ---
+    public TextMeshProUGUI caloriasTotalesText; // Asigna esto en el Inspector
+    private float totalCalorias = 0f;
+    // -----------------------------------------------------------
 
-    // RANGOS (se asignan en Start según la necesidad)
-    public RangoNutriente rangoHierro;
-    public RangoNutriente rangoVitaminaC;
-    public RangoNutriente rangoOmega3;
-    public RangoNutriente rangoProteina;
-    public RangoNutriente rangoMagnesio;
-    public RangoNutriente rangoVitaminaB;
-    public RangoNutriente rangoFibra;
-    public RangoNutriente rangoAntioxidantes;
-    public RangoNutriente rangoCarbohidratos;
+    public static event System.Action<GameObject> OnIngredienteAgregado;
 
-    void Start()
-    {
-        if (!string.IsNullOrEmpty(DatosCompartidos.necesidadSeleccionada))
-        {
-            EstablecerRangosPorNecesidad(DatosCompartidos.necesidadSeleccionada);
-        }
-    }
-
+    // Llamado desde objetos arrastrables al soltarse dentro de la licuadora
     public void AgregarIngrediente(Ingrediente nuevo)
     {
         if (nuevo == null)
         {
-            Debug.LogWarning("Ingrediente nulo recibido.");
+            Debug.LogWarning("Ingrediente nulo recibido en LicuadoraManager.");
             return;
         }
 
         ingredientesDentro.Add(nuevo);
-        Debug.Log("Ingrediente agregado: " + nuevo.nombreIngrediente);
+        Debug.Log("Ingrediente agregado al inventario de la licuadora: " + nuevo.name);
+
+        // --- NUEVO: Sumar Kcal y actualizar texto ---
+        totalCalorias += nuevo.Kcal; // Suma las calorías del nuevo ingrediente
+        ActualizarCaloriasEnUI();    // Llama al método para actualizar el TextMeshPro
+        // ---------------------------------------------
+
+        // Llama al evento, pasando el GameObject del ingrediente que se acaba de añadir.
+        if (OnIngredienteAgregado != null)
+        {
+            OnIngredienteAgregado(nuevo.gameObject);
+        }
+
         CalcularYActualizarBarras();
     }
 
+    // --- NUEVO MÉTODO: Para actualizar el texto de calorías ---
+    private void ActualizarCaloriasEnUI()
+    {
+        if (caloriasTotalesText != null)
+        {
+            // Formatea el texto para mostrar las calorías. Puedes ajustar el formato si quieres.
+            caloriasTotalesText.text = totalCalorias.ToString("F0");
+        }
+        else
+        {
+            Debug.LogWarning("TextMeshProUGUI 'caloriasTotalesText' no asignado en LicuadoraManager.");
+        }
+    }
+    // ---------------------------------------------------------
+
+    // Calcula los totales de nutrientes y actualiza las barras de progreso
     private void CalcularYActualizarBarras()
     {
-        if (ingredientesDentro.Count == 0) return;
-
-        float hierro = 0, vitC = 0, omega3 = 0, proteinas = 0, magnesio = 0;
-        float vitaminaB = 0, fibra = 0, antioxidantes = 0, carbohidratos = 0;
+        float totalHierro = 0f;
+        float totalVitC = 0f;
+        float totalOmega3 = 0f;
+        float totalProteina = 0f;
+        float totalMag = 0f;
+        float totalVitaminaB = 0f;
+        float totalFibra = 0f;
+        float totalAntiOx = 0f;
+        float totalCarboH = 0f;
 
         foreach (Ingrediente ing in ingredientesDentro)
         {
-            hierro += ing.hierro;
-            vitC += ing.vitaminaC;
-            omega3 += ing.omega3;
-            proteinas += ing.proteinas;
-            magnesio += ing.magnesio;
-            vitaminaB += ing.vitaminaB;
-            fibra += ing.fibra;
-            antioxidantes += ing.antioxidantes;
-            carbohidratos += ing.carbohidratos;
+            totalHierro += ing.hierro;
+            totalVitC += ing.vitaminaC;
+            totalOmega3 += ing.omega3;
+            totalProteina += ing.proteinas;
+            totalMag += ing.magnesio;
+            totalVitaminaB += ing.vitaminaB;
+            totalFibra += ing.fibra;
+            totalAntiOx += ing.antioxidantes;
+            totalCarboH += ing.carbohidratos;
         }
 
-        int total = ingredientesDentro.Count;
-
-        ActualizarBarra(barraHierro, hierro / total, rangoHierro);
-        ActualizarBarra(barraVitaminaC, vitC / total, rangoVitaminaC);
-        ActualizarBarra(barraOmega3, omega3 / total, rangoOmega3);
-        ActualizarBarra(barraProteina, proteinas / total, rangoProteina);
-        ActualizarBarra(barraMag, magnesio / total, rangoMagnesio);
-        ActualizarBarra(barraVitaminaB, vitaminaB / total, rangoVitaminaB);
-        ActualizarBarra(barraFibra, fibra / total, rangoFibra);
-        ActualizarBarra(barraAntiOx, antioxidantes / total, rangoAntioxidantes);
-        ActualizarBarra(barraCarboH, carbohidratos / total, rangoCarbohidratos);
-
-        VerificarResultadoFinal();
+        // Suponiendo que 100 es el valor ideal para llenar la barra (100%)
+        barraHierro?.ActualizarBarra(totalHierro / 100f);
+        barraVitaminaC?.ActualizarBarra(totalVitC / 100f);
+        barraOmega3?.ActualizarBarra(totalOmega3 / 100f);
+        barraProteina?.ActualizarBarra(totalProteina / 100f);
+        barraMag?.ActualizarBarra(totalMag / 100f);
+        barraVitaminaB?.ActualizarBarra(totalVitaminaB / 100f);
+        barraFibra?.ActualizarBarra(totalFibra / 100f);
+        barraAntiOx?.ActualizarBarra(totalAntiOx / 100f);
+        barraCarboH?.ActualizarBarra(totalCarboH / 100f);
     }
 
-    private void ActualizarBarra(BarraNutricional barra, float promedio, RangoNutriente rango)
-    {
-        if (barra == null) return;
-
-        float porcentaje = promedio / rango.maximo;
-        barra.ActualizarBarra(porcentaje);
-
-        barra.Estado = (promedio >= rango.minimo && promedio <= rango.maximo)
-            ? BarraNutricional.EstadoBarra.Ideal
-            : BarraNutricional.EstadoBarra.FueraDeRango;
-    }
-
-    private void VerificarResultadoFinal()
-    {
-        bool todasIdeales =
-            barraHierro.Estado == BarraNutricional.EstadoBarra.Ideal &&
-            barraVitaminaC.Estado == BarraNutricional.EstadoBarra.Ideal &&
-            barraOmega3.Estado == BarraNutricional.EstadoBarra.Ideal &&
-            barraProteina.Estado == BarraNutricional.EstadoBarra.Ideal &&
-            barraMag.Estado == BarraNutricional.EstadoBarra.Ideal &&
-            barraVitaminaB.Estado == BarraNutricional.EstadoBarra.Ideal &&
-            barraFibra.Estado == BarraNutricional.EstadoBarra.Ideal &&
-            barraAntiOx.Estado == BarraNutricional.EstadoBarra.Ideal &&
-            barraCarboH.Estado == BarraNutricional.EstadoBarra.Ideal;
-
-        if (mensajeResultado != null)
-        {
-            mensajeResultado.text = todasIdeales
-                ? "¡Batido perfecto dentro del rango ideal!"
-                : "Aún puedes mejorar tu batido.";
-
-            mensajeResultado.color = todasIdeales ? Color.green : Color.yellow;
-        }
-    }
-
+    // Vaciar la licuadora y reiniciar barras
     public void VaciarLicuadora()
     {
         ingredientesDentro.Clear();
+
+        // --- NUEVO: Reiniciar calorías al vaciar ---
+        totalCalorias = 0f;
+        ActualizarCaloriasEnUI(); // Actualiza el texto a 0
+        // ---------------------------------------------
 
         barraHierro?.ActualizarBarra(0f);
         barraVitaminaC?.ActualizarBarra(0f);
@@ -141,70 +124,12 @@ public class LicuadoraManager : MonoBehaviour
         barraAntiOx?.ActualizarBarra(0f);
         barraCarboH?.ActualizarBarra(0f);
 
-        if (mensajeResultado != null)
-            mensajeResultado.text = "";
-
         Debug.Log("Licuadora vaciada.");
     }
 
-    public void EstablecerRangosPorNecesidad(string necesidad)
+    // Asegúrate de llamar a esto una vez al inicio para mostrar "0 Kcal"
+    void Start()
     {
-        switch (necesidad.ToLower())
-        {
-            case "sueño":
-                rangoHierro = new RangoNutriente { minimo = 30, maximo = 60 };
-                rangoVitaminaC = new RangoNutriente { minimo = 20, maximo = 50 };
-                rangoOmega3 = new RangoNutriente { minimo = 60, maximo = 100 };
-                rangoProteina = new RangoNutriente { minimo = 20, maximo = 50 };
-                rangoMagnesio = new RangoNutriente { minimo = 70, maximo = 100 };
-                rangoVitaminaB = new RangoNutriente { minimo = 40, maximo = 70 };
-                rangoFibra = new RangoNutriente { minimo = 40, maximo = 80 };
-                rangoAntioxidantes = new RangoNutriente { minimo = 50, maximo = 90 };
-                rangoCarbohidratos = new RangoNutriente { minimo = 20, maximo = 60 };
-                break;
-
-            case "estrés":
-                rangoHierro = new RangoNutriente { minimo = 50, maximo = 80 };
-                rangoVitaminaC = new RangoNutriente { minimo = 70, maximo = 100 };
-                rangoOmega3 = new RangoNutriente { minimo = 60, maximo = 100 };
-                rangoProteina = new RangoNutriente { minimo = 40, maximo = 70 };
-                rangoMagnesio = new RangoNutriente { minimo = 60, maximo = 90 };
-                rangoVitaminaB = new RangoNutriente { minimo = 60, maximo = 90 };
-                rangoFibra = new RangoNutriente { minimo = 50, maximo = 80 };
-                rangoAntioxidantes = new RangoNutriente { minimo = 80, maximo = 100 };
-                rangoCarbohidratos = new RangoNutriente { minimo = 30, maximo = 70 };
-                break;
-
-            case "ansiedad":
-                rangoHierro = new RangoNutriente { minimo = 40, maximo = 70 };
-                rangoVitaminaC = new RangoNutriente { minimo = 60, maximo = 90 };
-                rangoOmega3 = new RangoNutriente { minimo = 70, maximo = 100 };
-                rangoProteina = new RangoNutriente { minimo = 30, maximo = 60 };
-                rangoMagnesio = new RangoNutriente { minimo = 80, maximo = 100 };
-                rangoVitaminaB = new RangoNutriente { minimo = 60, maximo = 90 };
-                rangoFibra = new RangoNutriente { minimo = 50, maximo = 90 };
-                rangoAntioxidantes = new RangoNutriente { minimo = 70, maximo = 100 };
-                rangoCarbohidratos = new RangoNutriente { minimo = 40, maximo = 70 };
-                break;
-
-            case "actividad física":
-            case "ejercicio":
-                rangoHierro = new RangoNutriente { minimo = 60, maximo = 100 };
-                rangoVitaminaC = new RangoNutriente { minimo = 60, maximo = 100 };
-                rangoOmega3 = new RangoNutriente { minimo = 40, maximo = 80 };
-                rangoProteina = new RangoNutriente { minimo = 80, maximo = 100 };
-                rangoMagnesio = new RangoNutriente { minimo = 50, maximo = 80 };
-                rangoVitaminaB = new RangoNutriente { minimo = 70, maximo = 100 };
-                rangoFibra = new RangoNutriente { minimo = 60, maximo = 100 };
-                rangoAntioxidantes = new RangoNutriente { minimo = 60, maximo = 90 };
-                rangoCarbohidratos = new RangoNutriente { minimo = 70, maximo = 100 };
-                break;
-
-            default:
-                Debug.LogWarning("Necesidad no reconocida: " + necesidad);
-                break;
-        }
-
-        Debug.Log("Rangos nutricionales establecidos para: " + necesidad);
+        ActualizarCaloriasEnUI();
     }
 }
