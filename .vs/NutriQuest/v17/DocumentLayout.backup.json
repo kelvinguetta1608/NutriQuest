@@ -3,20 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\dmaca\\OneDrive\\Documentos\\Semestre 8\\DisenoMultimedia2\\Nutriquest\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{587D82B9-B065-7954-007B-6C492089FE57}|Assembly-CSharp.csproj|c:\\users\\dmaca\\onedrive\\documentos\\semestre 8\\disenomultimedia2\\nutriquest\\assets\\maca\\scripts\\datoscompartidos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{587D82B9-B065-7954-007B-6C492089FE57}|Assembly-CSharp.csproj|solutionrelative:assets\\maca\\scripts\\datoscompartidos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{587D82B9-B065-7954-007B-6C492089FE57}|Assembly-CSharp.csproj|c:\\users\\dmaca\\onedrive\\documentos\\semestre 8\\disenomultimedia2\\nutriquest\\assets\\maca\\scripts\\misiondiariamanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{587D82B9-B065-7954-007B-6C492089FE57}|Assembly-CSharp.csproj|solutionrelative:assets\\maca\\scripts\\misiondiariamanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{587D82B9-B065-7954-007B-6C492089FE57}|Assembly-CSharp.csproj|c:\\users\\dmaca\\onedrive\\documentos\\semestre 8\\disenomultimedia2\\nutriquest\\assets\\3dobj\\alimentos\\licuadoramanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{587D82B9-B065-7954-007B-6C492089FE57}|Assembly-CSharp.csproj|C:\\Users\\dmaca\\OneDrive\\Documentos\\Semestre 8\\DisenoMultimedia2\\Nutriquest\\assets\\maca\\scripts\\selectornecesidadui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{587D82B9-B065-7954-007B-6C492089FE57}|Assembly-CSharp.csproj|solutionrelative:assets\\maca\\scripts\\selectornecesidadui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{587D82B9-B065-7954-007B-6C492089FE57}|Assembly-CSharp.csproj|C:\\Users\\dmaca\\OneDrive\\Documentos\\Semestre 8\\DisenoMultimedia2\\Nutriquest\\assets\\3dobj\\alimentos\\licuadoramanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{587D82B9-B065-7954-007B-6C492089FE57}|Assembly-CSharp.csproj|solutionrelative:assets\\3dobj\\alimentos\\licuadoramanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{587D82B9-B065-7954-007B-6C492089FE57}|Assembly-CSharp.csproj|C:\\Users\\dmaca\\OneDrive\\Documentos\\Semestre 8\\DisenoMultimedia2\\Nutriquest\\assets\\3dobj\\alimentos\\ingrediente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{587D82B9-B065-7954-007B-6C492089FE57}|Assembly-CSharp.csproj|solutionrelative:assets\\3dobj\\alimentos\\ingrediente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{587D82B9-B065-7954-007B-6C492089FE57}|Assembly-CSharp.csproj|C:\\Users\\dmaca\\OneDrive\\Documentos\\Semestre 8\\DisenoMultimedia2\\Nutriquest\\assets\\maca\\scripts\\eleccionbatido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{587D82B9-B065-7954-007B-6C492089FE57}|Assembly-CSharp.csproj|solutionrelative:assets\\maca\\scripts\\eleccionbatido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{587D82B9-B065-7954-007B-6C492089FE57}|Assembly-CSharp.csproj|C:\\Users\\dmaca\\OneDrive\\Documentos\\Semestre 8\\DisenoMultimedia2\\Nutriquest\\assets\\maca\\scripts\\datoscompartidos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{587D82B9-B065-7954-007B-6C492089FE57}|Assembly-CSharp.csproj|solutionrelative:assets\\maca\\scripts\\datoscompartidos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{587D82B9-B065-7954-007B-6C492089FE57}|Assembly-CSharp.csproj|C:\\Users\\dmaca\\OneDrive\\Documentos\\Semestre 8\\DisenoMultimedia2\\Nutriquest\\assets\\3dobj\\alimentos\\barranutricional.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{587D82B9-B065-7954-007B-6C492089FE57}|Assembly-CSharp.csproj|solutionrelative:assets\\3dobj\\alimentos\\barranutricional.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{587D82B9-B065-7954-007B-6C492089FE57}|Assembly-CSharp.csproj|C:\\Users\\dmaca\\OneDrive\\Documentos\\Semestre 8\\DisenoMultimedia2\\Nutriquest\\assets\\3dobj\\alimentos\\ingrediente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{587D82B9-B065-7954-007B-6C492089FE57}|Assembly-CSharp.csproj|solutionrelative:assets\\3dobj\\alimentos\\ingrediente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,31 +43,67 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "MisionDiariaManager.cs",
+              "DocumentMoniker": "C:\\Users\\dmaca\\OneDrive\\Documentos\\Semestre 8\\DisenoMultimedia2\\Nutriquest\\Assets\\Maca\\Scripts\\MisionDiariaManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Maca\\Scripts\\MisionDiariaManager.cs",
+              "ToolTip": "C:\\Users\\dmaca\\OneDrive\\Documentos\\Semestre 8\\DisenoMultimedia2\\Nutriquest\\Assets\\Maca\\Scripts\\MisionDiariaManager.cs",
+              "RelativeToolTip": "Assets\\Maca\\Scripts\\MisionDiariaManager.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwCgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T04:58:24.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SelectorNecesidadUI.cs",
+              "DocumentMoniker": "C:\\Users\\dmaca\\OneDrive\\Documentos\\Semestre 8\\DisenoMultimedia2\\Nutriquest\\Assets\\Maca\\Scripts\\SelectorNecesidadUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Maca\\Scripts\\SelectorNecesidadUI.cs",
+              "ToolTip": "C:\\Users\\dmaca\\OneDrive\\Documentos\\Semestre 8\\DisenoMultimedia2\\Nutriquest\\Assets\\Maca\\Scripts\\SelectorNecesidadUI.cs",
+              "RelativeToolTip": "Assets\\Maca\\Scripts\\SelectorNecesidadUI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAwAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T02:13:07.577Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EleccionBatido.cs",
+              "DocumentMoniker": "C:\\Users\\dmaca\\OneDrive\\Documentos\\Semestre 8\\DisenoMultimedia2\\Nutriquest\\Assets\\Maca\\Scripts\\EleccionBatido.cs",
+              "RelativeDocumentMoniker": "Assets\\Maca\\Scripts\\EleccionBatido.cs",
+              "ToolTip": "C:\\Users\\dmaca\\OneDrive\\Documentos\\Semestre 8\\DisenoMultimedia2\\Nutriquest\\Assets\\Maca\\Scripts\\EleccionBatido.cs",
+              "RelativeToolTip": "Assets\\Maca\\Scripts\\EleccionBatido.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T02:04:43.048Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "DatosCompartidos.cs",
               "DocumentMoniker": "C:\\Users\\dmaca\\OneDrive\\Documentos\\Semestre 8\\DisenoMultimedia2\\Nutriquest\\Assets\\Maca\\Scripts\\DatosCompartidos.cs",
               "RelativeDocumentMoniker": "Assets\\Maca\\Scripts\\DatosCompartidos.cs",
               "ToolTip": "C:\\Users\\dmaca\\OneDrive\\Documentos\\Semestre 8\\DisenoMultimedia2\\Nutriquest\\Assets\\Maca\\Scripts\\DatosCompartidos.cs",
               "RelativeToolTip": "Assets\\Maca\\Scripts\\DatosCompartidos.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-29T01:55:24.764Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-29T01:55:24.764Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "BarraNutricional.cs",
               "DocumentMoniker": "C:\\Users\\dmaca\\OneDrive\\Documentos\\Semestre 8\\DisenoMultimedia2\\Nutriquest\\Assets\\3dobj\\alimentos\\BarraNutricional.cs",
               "RelativeDocumentMoniker": "Assets\\3dobj\\alimentos\\BarraNutricional.cs",
               "ToolTip": "C:\\Users\\dmaca\\OneDrive\\Documentos\\Semestre 8\\DisenoMultimedia2\\Nutriquest\\Assets\\3dobj\\alimentos\\BarraNutricional.cs",
               "RelativeToolTip": "Assets\\3dobj\\alimentos\\BarraNutricional.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAIwDcAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-28T22:49:16.691Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "Ingrediente.cs",
               "DocumentMoniker": "C:\\Users\\dmaca\\OneDrive\\Documentos\\Semestre 8\\DisenoMultimedia2\\Nutriquest\\Assets\\3dobj\\alimentos\\Ingrediente.cs",
               "RelativeDocumentMoniker": "Assets\\3dobj\\alimentos\\Ingrediente.cs",
@@ -67,7 +115,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "LicuadoraManager.cs",
               "DocumentMoniker": "C:\\Users\\dmaca\\OneDrive\\Documentos\\Semestre 8\\DisenoMultimedia2\\Nutriquest\\Assets\\3dobj\\alimentos\\LicuadoraManager.cs",
               "RelativeDocumentMoniker": "Assets\\3dobj\\alimentos\\LicuadoraManager.cs",
@@ -75,8 +123,7 @@
               "RelativeToolTip": "Assets\\3dobj\\alimentos\\LicuadoraManager.cs",
               "ViewState": "AgIAAK8AAAAAAAAAAAAAwNIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T16:16:28.729Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-28T16:16:28.729Z"
             }
           ]
         }

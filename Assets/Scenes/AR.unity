@@ -4377,7 +4377,7 @@ GameObject:
   - component: {fileID: 808489559}
   - component: {fileID: 808489558}
   - component: {fileID: 808489557}
-  - component: {fileID: 808489556}
+  - component: {fileID: 808489560}
   m_Layer: 0
   m_Name: ImageTarget
   m_TagString: Untagged
@@ -4385,25 +4385,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &808489556
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 808489555}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 808489558}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: Marcador
-  mDatasetName: 
-  mCastedBehaviour: {fileID: 808489558}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!114 &808489557
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4474,7 +4455,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 808489556}
+  mPreview: {fileID: 808489560}
 --- !u!4 &808489559
 Transform:
   m_ObjectHideFlags: 0
@@ -4491,6 +4472,25 @@ Transform:
   - {fileID: 1501460610}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &808489560
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 808489555}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 808489558}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: Marcador
+  mDatasetName: 
+  mCastedBehaviour: {fileID: 808489558}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1 &808667473
 GameObject:
   m_ObjectHideFlags: 0
@@ -11009,29 +11009,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9cb0d2e798557bb4cba721f09fca9b94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  botonesIngredientes:
-  - {fileID: 1333925662}
-  - {fileID: 661170020}
-  - {fileID: 454089164}
-  - {fileID: 1272734687}
-  - {fileID: 466361520}
-  - {fileID: 1595517314}
-  - {fileID: 2679861}
-  - {fileID: 229298199}
-  - {fileID: 1159899076}
-  - {fileID: 434170548}
-  - {fileID: 762560503}
-  - {fileID: 1043582788}
-  - {fileID: 250171153}
-  - {fileID: 1882581886}
-  - {fileID: 2124309052}
-  - {fileID: 661952156}
-  - {fileID: 1964955225}
-  - {fileID: 573192196}
-  - {fileID: 2061799396}
-  - {fileID: 1599588864}
-  colorNormal: {r: 1, g: 1, b: 1, a: 1}
-  colorSeleccionado: {r: 1, g: 0.6, b: 0.1, a: 1}
 --- !u!4 &2067290446
 Transform:
   m_ObjectHideFlags: 0
