@@ -12,6 +12,37 @@ TagManager:
   - Banano
   - Manzana
   - Bebida
+  - Blender
+  - "Sue\xF1o"
+  - Ansiedad
+  - ActividadFisica
+  - Aguacate
+  - "Pi\xF1a"
+  - Uva morada
+  - Naranja
+  - Guayaba
+  - Maracuya
+  - Papaya
+  - Apio
+  - Pimenton
+  - Pepino
+  - Zanahoria
+  - Brocoli
+  - Avena
+  - Canela
+  - Mani
+  - Miel
+  - Chia
+  - Linaza
+  - Nueces
+  - Almendras
+  - Chocolate
+  - Agua
+  - Leche
+  - Leche de almendras
+  - Yogurt
+  - Yogurt griego
+  - Leche de coco
   layers:
   - Default
   - TransparentFX

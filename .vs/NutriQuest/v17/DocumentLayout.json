@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Usuario\\NutriQuest\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C84A3097-B110-E7BA-504F-197E3350D3E9}|Assembly-CSharp.csproj|c:\\users\\usuario\\nutriquest\\assets\\scripts\\inventariouimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C84A3097-B110-E7BA-504F-197E3350D3E9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\inventariouimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C84A3097-B110-E7BA-504F-197E3350D3E9}|Assembly-CSharp.csproj|c:\\users\\usuario\\nutriquest\\assets\\ingredientecolortrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C84A3097-B110-E7BA-504F-197E3350D3E9}|Assembly-CSharp.csproj|solutionrelative:assets\\ingredientecolortrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C84A3097-B110-E7BA-504F-197E3350D3E9}|Assembly-CSharp.csproj|c:\\users\\usuario\\nutriquest\\assets\\scripts\\vibrationbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C84A3097-B110-E7BA-504F-197E3350D3E9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\vibrationbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C84A3097-B110-E7BA-504F-197E3350D3E9}|Assembly-CSharp.csproj|c:\\users\\usuario\\nutriquest\\assets\\3dobj\\alimentos\\ingrediente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C84A3097-B110-E7BA-504F-197E3350D3E9}|Assembly-CSharp.csproj|solutionrelative:assets\\3dobj\\alimentos\\ingrediente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,12 +31,51 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "InventarioUIManager.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\NutriQuest\\Assets\\Scripts\\InventarioUIManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\InventarioUIManager.cs",
+              "ToolTip": "C:\\Users\\Usuario\\NutriQuest\\Assets\\Scripts\\InventarioUIManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\InventarioUIManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T15:08:09.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "VibrationButton.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\NutriQuest\\Assets\\Scripts\\VibrationButton.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\VibrationButton.cs",
+              "ToolTip": "C:\\Users\\Usuario\\NutriQuest\\Assets\\Scripts\\VibrationButton.cs",
+              "RelativeToolTip": "Assets\\Scripts\\VibrationButton.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T15:01:44.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Ingrediente.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\NutriQuest\\Assets\\3dobj\\alimentos\\Ingrediente.cs",
+              "RelativeDocumentMoniker": "Assets\\3dobj\\alimentos\\Ingrediente.cs",
+              "ToolTip": "C:\\Users\\Usuario\\NutriQuest\\Assets\\3dobj\\alimentos\\Ingrediente.cs",
+              "RelativeToolTip": "Assets\\3dobj\\alimentos\\Ingrediente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T14:45:27.403Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "IngredienteColorTrigger.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\NutriQuest\\Assets\\IngredienteColorTrigger.cs",
               "RelativeDocumentMoniker": "Assets\\IngredienteColorTrigger.cs",
               "ToolTip": "C:\\Users\\Usuario\\NutriQuest\\Assets\\IngredienteColorTrigger.cs",
               "RelativeToolTip": "Assets\\IngredienteColorTrigger.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAUwCIAAAA4AAAAAAAAAA==",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAswHUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-29T12:37:43.561Z",
               "EditorCaption": ""
