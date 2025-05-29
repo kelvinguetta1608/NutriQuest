@@ -9,6 +9,14 @@ public class SeleccionarModo : MonoBehaviour
     {
         ModoJuego.usarRA = esRA;
         Debug.Log("Modo RA seleccionado: " + ModoJuego.usarRA);
-        SceneManager.LoadScene("EleccionBatido");
+
+        if (esRA)
+        {
+            SceneManager.LoadScene("AR");
+        }
+        else
+        {
+            SceneManager.LoadScene("EleccionBatido");
+        }
     }
 }
