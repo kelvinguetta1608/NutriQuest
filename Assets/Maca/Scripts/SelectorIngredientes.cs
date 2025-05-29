@@ -11,28 +11,18 @@ public class SelectorIngredientes : MonoBehaviour
         public GameObject circuloNaranja;
 
         [Range(0f, 1f)]
-        public float posicionNormalizada; // Valor de 0 a 1 para desplazamiento
+        public float posicionNormalizada;
     }
 
     public BotonIngrediente[] botones;
     public ScrollRect scrollRect;
     public float velocidadDesplazamiento = 5f;
-    public bool calcularPosicionesAutomaticamente = false; // ✅ Nuevo: evita sobrescribir en Start
 
     private void Start()
     {
-        if (calcularPosicionesAutomaticamente)
-        {
-            float paso = botones.Length > 1 ? 1f / (botones.Length - 1) : 0f;
-            for (int i = 0; i < botones.Length; i++)
-            {
-                botones[i].posicionNormalizada = paso * i;
-            }
-        }
-
         for (int i = 0; i < botones.Length; i++)
         {
-            int indexCapturado = i; // ✅ Corrección del índice
+            int indexCapturado = i;
             botones[i].botonGO.GetComponent<Button>().onClick.AddListener(() => ActivarIngrediente(indexCapturado));
         }
 
@@ -41,15 +31,17 @@ public class SelectorIngredientes : MonoBehaviour
 
     void ActivarIngrediente(int indexSeleccionado)
     {
+        // Desactiva todos los círculos
         for (int i = 0; i < botones.Length; i++)
         {
-            botones[i].circuloNaranja.SetActive(i == indexSeleccionado);
+            botones[i].circuloNaranja.SetActive(false);
         }
 
-        StartCoroutine(DesplazarScrollX(botones[indexSeleccionado].posicionNormalizada));
+        // Inicia desplazamiento y enciende imagen correcta después
+        StartCoroutine(DesplazarScrollYActivarImg(botones[indexSeleccionado].posicionNormalizada));
     }
 
-    IEnumerator DesplazarScrollX(float destinoNormalizado)
+    IEnumerator DesplazarScrollYActivarImg(float destinoNormalizado)
     {
         float inicio = scrollRect.horizontalNormalizedPosition;
         float tiempo = 0f;
@@ -62,5 +54,40 @@ public class SelectorIngredientes : MonoBehaviour
         }
 
         scrollRect.horizontalNormalizedPosition = destinoNormalizado;
+
+        // Luego de desplazarse, activamos la imagen adecuada
+        ActivarImagenPorPosicion(destinoNormalizado);
+    }
+
+    void ActivarImagenPorPosicion(float pos)
+    {
+        for (int i = 0; i < botones.Length; i++)
+        {
+            botones[i].circuloNaranja.SetActive(false);
+        }
+
+        int index = 0;
+
+        if (pos >= 0f && pos < 0.32f)
+            index = 0;
+        else if (pos >= 0.32f && pos < 0.49f)
+            index = 1;
+        else if (pos >= 0.49f && pos < 0.79f)
+            index = 2;
+        else if (pos >= 0.79f && pos < 0.88f)
+            index = 3;
+        else if (pos >= 0.88f && pos <= 1f)
+            index = 4;
+
+        if (index >= 0 && index < botones.Length)
+        {
+            botones[index].circuloNaranja.SetActive(true);
+        }
+    }
+
+    private void Update()
+    {
+        // Si quieres que esto se actualice también con swipe manual:
+        ActivarImagenPorPosicion(scrollRect.horizontalNormalizedPosition);
     }
 }

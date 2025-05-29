@@ -11,10 +11,10 @@ public class BarraNutricional : MonoBehaviour
     private Coroutine animacionActual;
 
     // --- Colores base para la interpolación ---
-    public Color colorRojo = new Color(1f, 0.2f, 0.2f, 1f); // Rojo vibrante
-    public Color colorAmarillo = new Color(1f, 0.9f, 0.2f, 1f); // Amarillo
-    public Color colorAmarilloVerdoso = new Color(0.7f, 1f, 0.2f, 1f); // Amarillo-verdoso
-    public Color colorVerde = new Color(0.2f, 1f, 0.2f, 1f); // Verde
+    public Color colorRojo = new Color(0.635f, 0f, 0f, 1f);       // A20000 -> Convertido de Hex a RGB (R: 162/255, G: 0/255, B: 0/255)
+    public Color colorAmarillo = new Color(1f, 0.533f, 0.2f, 1f); // FF8833 -> Convertido de Hex a RGB (R: 255/255, G: 136/255, B: 51/255)
+    public Color colorAmarilloVerdoso = new Color(1f, 0.866f, 0.2f, 1f); // FFDD33 -> Convertido de Hex a RGB (R: 255/255, G: 221/255, B: 51/255)
+    public Color colorVerde = new Color(0.2f, 1f, 0.2f, 1f);     // 33FF33 -> Ya era el mismo en tu código anterior
 
     void Awake()
     {
@@ -73,35 +73,31 @@ public class BarraNutricional : MonoBehaviour
     {
         // El valor de entrada (valor) está entre 0 y 1 (0% a 100%)
 
-        if (valor <= 0.25f) // Menor o igual a 25% (Rojo a Amarillo)
+        if (valor <= 0.25f) // Menor o igual a 25% (Rojo original A20000 a Amarillo FF8833)
         {
-            // Interpola de Rojo (0%) a Amarillo (25%)
             return Color.Lerp(colorRojo, colorAmarillo, valor / 0.25f);
         }
-        else if (valor <= 0.50f) // Entre 25% y 50% (Amarillo a Amarillo Verdoso)
+        else if (valor <= 0.40f) // Entre 25% y 40% (Amarillo FF8833 a Amarillo Verdoso FFDD33)
         {
-            // Interpola de Amarillo (25%) a Amarillo Verdoso (50%)
-            // Normaliza el valor dentro de este rango (0.25 a 0.50) a un rango de 0 a 1
-            return Color.Lerp(colorAmarillo, colorAmarilloVerdoso, (valor - 0.25f) / 0.25f);
+            return Color.Lerp(colorAmarillo, colorAmarilloVerdoso, (valor - 0.25f) / 0.15f); // 0.40 - 0.25 = 0.15
         }
-        else if (valor <= 0.79f) // Entre 50% y 79% (Amarillo Verdoso a Verde)
+        else if (valor <= 0.65f) // Entre 40% y 60% (Amarillo Verdoso FFDD33 a Verde 33FF33)
         {
-            // Interpola de Amarillo Verdoso (50%) a Verde (79%)
-            // Normaliza el valor dentro de este rango (0.50 a 0.79) a un rango de 0 a 1
-            return Color.Lerp(colorAmarilloVerdoso, colorVerde, (valor - 0.50f) / 0.29f); // 0.79 - 0.50 = 0.29
+            // Ajusté el rango para la interpolación para que 0.60 sea el punto final para alcanzar el verde.
+            // Si el verde "ideal" es de 70-95, el 60% ya debería ser un verde claro.
+            // La interpolación va de 0.40 a 0.60, por lo que el divisor es 0.20f
+            return Color.Lerp(colorAmarilloVerdoso, colorVerde, (valor - 0.40f) / 0.20f);
         }
-        else if (valor <= 0.95f) // Entre 80% y 95% (Verde puro)
+        else if (valor <= 0.98f) // Entre 60% y 98% (Verde puro)
         {
-            // Para mantener el verde puro en este rango, no hay interpolación.
-            // Si quisieras una transición suave de verde a rojo aquí, usarías otro Lerp.
-            // Por simplicidad, se mantiene verde puro en este rango.
+            // Este es tu rango "óptimo" más amplio donde la barra se mantiene verde.
+            // Antes tenías 0.95f, ahora 0.98f, lo cual está bien si quieres una ventana de éxito más grande.
             return colorVerde;
         }
-        else // De 96% a 100% (Rojo)
+        else // De 98% a 100% (Verde a Rojo final A20000 para indicar exceso)
         {
-            // Interpola de Verde (95%) a Rojo (100%) para indicar exceso
-            // Normaliza el valor dentro de este rango (0.95 a 1.0) a un rango de 0 a 1
-            return Color.Lerp(colorVerde, colorRojo, (valor - 0.95f) / 0.05f); // 1.0 - 0.95 = 0.05
+            // La interpolación de verde a rojo ahora ocurre en el último 2% (0.98f a 1.0f).
+            return Color.Lerp(colorVerde, colorRojo, (valor - 0.98f) / 0.02f); // 1.0 - 0.98 = 0.02
         }
     }
 }
