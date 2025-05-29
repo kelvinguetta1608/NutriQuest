@@ -6,3 +6,9 @@
 [Bb]uilds/
 [Ll]ogs/
 MemoryCaptures/
+.vs/
+obj/
+*.csproj
+*.suo
+*.cache
+UserSettings/
