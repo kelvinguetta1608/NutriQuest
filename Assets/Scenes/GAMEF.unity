@@ -2411,7 +2411,7 @@ MonoBehaviour:
   exitButton: {fileID: 1257372710}
   menuButton: {fileID: 1676790513}
   gameIsOver: 0
-  tiempoRestante: 4
+  tiempoRestante: 60
 --- !u!4 &1293018487
 Transform:
   m_ObjectHideFlags: 0
