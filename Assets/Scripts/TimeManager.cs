@@ -1,0 +1,88 @@
+using UnityEngine;
+using TMPro;
+// Librarys hinzufügen, um mit UI-Elementen und SceneManager arbeiten zu können
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
+
+public class TimeManager : MonoBehaviour
+{
+    // Variablen deklarieren
+    int score;
+    int lives;
+    public TextMeshProUGUI scoreText;
+    public TextMeshProUGUI livesText;
+    public TextMeshProUGUI gameOverText;
+    public TextMeshProUGUI timerText;
+    public Button restartButton;
+    public Button exitButton;
+    public Button menuButton;
+    public bool gameIsOver;
+    public float tiempoRestante = 60f;
+
+    // Startwerte für score und lives festlegen
+    void Start()
+    {
+        score = 0;
+        lives = 3;
+    }
+
+    void Update()
+    {
+        if (!gameIsOver)
+        {
+            // Reducir el tiempo restante
+            tiempoRestante -= Time.deltaTime;
+
+            if (tiempoRestante <= 0)
+            {
+                tiempoRestante = 0;
+                GameOver();
+            }
+
+
+            int minutos = Mathf.FloorToInt(tiempoRestante / 60);
+            int segundos = Mathf.FloorToInt(tiempoRestante % 60);
+            timerText.text = string.Format("{0:00}:{1:00}", minutos, segundos);
+        }
+    }
+
+
+    // Erhöht den Score um die Anzahl der Punkte, die der Fruit zugewiesen wurden
+    public void UpdateTheScore(int scorePointsToAdd)
+    {
+        score += scorePointsToAdd;
+        scoreText.text = score.ToString();
+    }
+
+    // Zieht ein Leben ab, wenn eine Fruit verpasst wurde und beendet das Spiel wenn keine Leben mehr übrig sind
+    public void UpdateLives()
+    {
+        if (gameIsOver == false)
+        {
+            lives--;
+            livesText.text = "Lives: " + lives;
+
+            if (lives == 0)
+            {
+                GameOver();
+            }
+        }
+
+    }
+
+    // Beendet das Spiel und aktiviert den GameOver-Screen
+    public void GameOver()
+    {
+        gameIsOver = true;
+        gameOverText.gameObject.SetActive(true);
+        restartButton.gameObject.SetActive(true);
+        exitButton.gameObject.SetActive(true);
+        menuButton.gameObject.SetActive(true);
+    }
+
+    // Lädt die Szene neu, wenn man auf den Restart-Button klickt
+    public void RestartTheGame()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+}

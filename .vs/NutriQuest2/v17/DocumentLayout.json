@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "E:\\Unity\\NutriQuest2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{322012F6-7FBB-B913-2FC5-2B8374B0606C}|Assembly-CSharp.csproj|e:\\unity\\nutriquest2\\assets\\scripts\\vibrationbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{322012F6-7FBB-B913-2FC5-2B8374B0606C}|Assembly-CSharp.csproj|e:\\unity\\nutriquest2\\assets\\scripts\\timemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{322012F6-7FBB-B913-2FC5-2B8374B0606C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\timemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{322012F6-7FBB-B913-2FC5-2B8374B0606C}|Assembly-CSharp.csproj|e:\\unity\\nutriquest2\\assets\\scripts\\foodspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{322012F6-7FBB-B913-2FC5-2B8374B0606C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\foodspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{322012F6-7FBB-B913-2FC5-2B8374B0606C}|Assembly-CSharp.csproj|E:\\Unity\\NutriQuest2\\assets\\scripts\\touchhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{322012F6-7FBB-B913-2FC5-2B8374B0606C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\touchhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{322012F6-7FBB-B913-2FC5-2B8374B0606C}|Assembly-CSharp.csproj|E:\\Unity\\NutriQuest2\\assets\\scripts\\vibrationbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{322012F6-7FBB-B913-2FC5-2B8374B0606C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\vibrationbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{322012F6-7FBB-B913-2FC5-2B8374B0606C}|Assembly-CSharp.csproj|e:\\unity\\nutriquest2\\assets\\scripts\\draggable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{322012F6-7FBB-B913-2FC5-2B8374B0606C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\draggable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{322012F6-7FBB-B913-2FC5-2B8374B0606C}|Assembly-CSharp.csproj|E:\\Unity\\NutriQuest2\\Assets\\Scripts\\Layer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{322012F6-7FBB-B913-2FC5-2B8374B0606C}|Assembly-CSharp.csproj|solutionrelative:Assets\\Scripts\\Layer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{322012F6-7FBB-B913-2FC5-2B8374B0606C}|Assembly-CSharp.csproj|E:\\Unity\\NutriQuest2\\Assets\\Scripts\\DragController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{322012F6-7FBB-B913-2FC5-2B8374B0606C}|Assembly-CSharp.csproj|solutionrelative:Assets\\Scripts\\DragController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,6 +31,44 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "TimeManager.cs",
+              "DocumentMoniker": "E:\\Unity\\NutriQuest2\\Assets\\Scripts\\TimeManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TimeManager.cs",
+              "ToolTip": "E:\\Unity\\NutriQuest2\\Assets\\Scripts\\TimeManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TimeManager.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAIwE8AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T15:36:24.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FoodSpawner.cs",
+              "DocumentMoniker": "E:\\Unity\\NutriQuest2\\Assets\\Scripts\\FoodSpawner.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\FoodSpawner.cs",
+              "ToolTip": "E:\\Unity\\NutriQuest2\\Assets\\Scripts\\FoodSpawner.cs",
+              "RelativeToolTip": "Assets\\Scripts\\FoodSpawner.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAIwCAAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T15:31:49.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TouchHandler.cs",
+              "DocumentMoniker": "E:\\Unity\\NutriQuest2\\Assets\\Scripts\\TouchHandler.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TouchHandler.cs",
+              "ToolTip": "E:\\Unity\\NutriQuest2\\Assets\\Scripts\\TouchHandler.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TouchHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T15:30:59.985Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "VibrationButton.cs",
               "DocumentMoniker": "E:\\Unity\\NutriQuest2\\Assets\\Scripts\\VibrationButton.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\VibrationButton.cs",
@@ -38,45 +76,7 @@
               "RelativeToolTip": "Assets\\Scripts\\VibrationButton.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-29T13:01:07.128Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Draggable.cs",
-              "DocumentMoniker": "E:\\Unity\\NutriQuest2\\Assets\\Scripts\\Draggable.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Draggable.cs",
-              "ToolTip": "E:\\Unity\\NutriQuest2\\Assets\\Scripts\\Draggable.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Draggable.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAIAzwD8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T21:27:16.275Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Layer.cs",
-              "DocumentMoniker": "E:\\Unity\\NutriQuest2\\Assets\\Scripts\\Layer.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Layer.cs",
-              "ToolTip": "E:\\Unity\\NutriQuest2\\Assets\\Scripts\\Layer.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Layer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T21:26:48.432Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DragController.cs",
-              "DocumentMoniker": "E:\\Unity\\NutriQuest2\\Assets\\Scripts\\DragController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\DragController.cs",
-              "ToolTip": "E:\\Unity\\NutriQuest2\\Assets\\Scripts\\DragController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\DragController.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAqwF0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T21:25:43.655Z"
+              "WhenOpened": "2025-05-29T13:01:07.128Z"
             }
           ]
         }
