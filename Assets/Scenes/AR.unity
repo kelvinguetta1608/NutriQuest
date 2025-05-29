@@ -2338,19 +2338,19 @@ MonoBehaviour:
   botones:
   - botonGO: {fileID: 1389794350}
     circuloNaranja: {fileID: 239080135}
-    posicionXObjetivo: -199.9992
+    posicionNormalizada: 0
   - botonGO: {fileID: 103356646}
     circuloNaranja: {fileID: 1437968193}
-    posicionXObjetivo: -400
+    posicionNormalizada: 0
   - botonGO: {fileID: 1758070356}
     circuloNaranja: {fileID: 1345869971}
-    posicionXObjetivo: -629
+    posicionNormalizada: 0
   - botonGO: {fileID: 2119629264}
     circuloNaranja: {fileID: 975450580}
-    posicionXObjetivo: -862
+    posicionNormalizada: 0
   - botonGO: {fileID: 1133700922}
     circuloNaranja: {fileID: 1557554439}
-    posicionXObjetivo: -1097
+    posicionNormalizada: 0
   scrollRect: {fileID: 828378077}
   velocidadDesplazamiento: 3
 --- !u!1 &454089161
@@ -8247,6 +8247,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: blender
       objectReference: {fileID: 0}
+    - target: {fileID: 3665043475424057693, guid: 7216f620023746f44b564382576bf66f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: -8022088438238926171, guid: c053c054fc5d4ee42a02877ce265b03a, type: 3}
+    - target: {fileID: 3665043475424057693, guid: 7216f620023746f44b564382576bf66f, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 6700956209961334028, guid: 40a62d4d93fb6bd47abca49a29d0a2ab, type: 3}
+    - target: {fileID: 3665043475424057693, guid: 7216f620023746f44b564382576bf66f, type: 3}
+      propertyPath: m_Materials.Array.data[2]
+      value: 
+      objectReference: {fileID: -6440753879446025210, guid: c60361ef3b9bc4a4e8444af8497df5a8, type: 3}
+    - target: {fileID: 3665043475424057693, guid: 7216f620023746f44b564382576bf66f, type: 3}
+      propertyPath: m_Materials.Array.data[3]
+      value: 
+      objectReference: {fileID: 5113096710116769324, guid: ae82258ec40fef946b9ddbe6fd94f091, type: 3}
+    - target: {fileID: 3665043475424057693, guid: 7216f620023746f44b564382576bf66f, type: 3}
+      propertyPath: m_Materials.Array.data[4]
+      value: 
+      objectReference: {fileID: -5722511506139570525, guid: a2ef2ac0f96bdd842b8715610d9b8c68, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

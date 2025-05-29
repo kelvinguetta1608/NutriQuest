@@ -69,7 +69,7 @@ public class BarraNutricional : MonoBehaviour
         Debug.Log($"Relleno final: {barra.fillAmount}");
     }
 
-    private Color ObtenerColorProgresivo(float valor)
+    public Color ObtenerColorProgresivo(float valor)
     {
         // El valor de entrada (valor) está entre 0 y 1 (0% a 100%)
 
