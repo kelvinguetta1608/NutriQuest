@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
 
@@ -9,19 +9,31 @@ public class SelectorIngredientes : MonoBehaviour
     {
         public GameObject botonGO;
         public GameObject circuloNaranja;
-        public float posicionXObjetivo; // Posici�n X deseada del Content
+
+        [Range(0f, 1f)]
+        public float posicionNormalizada; // Valor de 0 a 1 para desplazamiento
     }
 
     public BotonIngrediente[] botones;
     public ScrollRect scrollRect;
     public float velocidadDesplazamiento = 5f;
+    public bool calcularPosicionesAutomaticamente = false; // ✅ Nuevo: evita sobrescribir en Start
 
     private void Start()
     {
+        if (calcularPosicionesAutomaticamente)
+        {
+            float paso = botones.Length > 1 ? 1f / (botones.Length - 1) : 0f;
+            for (int i = 0; i < botones.Length; i++)
+            {
+                botones[i].posicionNormalizada = paso * i;
+            }
+        }
+
         for (int i = 0; i < botones.Length; i++)
         {
-            int index = i;
-            botones[i].botonGO.GetComponent<Button>().onClick.AddListener(() => ActivarIngrediente(index));
+            int indexCapturado = i; // ✅ Corrección del índice
+            botones[i].botonGO.GetComponent<Button>().onClick.AddListener(() => ActivarIngrediente(indexCapturado));
         }
 
         ActivarIngrediente(0);
@@ -34,23 +46,21 @@ public class SelectorIngredientes : MonoBehaviour
             botones[i].circuloNaranja.SetActive(i == indexSeleccionado);
         }
 
-        StartCoroutine(DesplazarScrollX(botones[indexSeleccionado].posicionXObjetivo));
+        StartCoroutine(DesplazarScrollX(botones[indexSeleccionado].posicionNormalizada));
     }
 
-    IEnumerator DesplazarScrollX(float destinoX)
+    IEnumerator DesplazarScrollX(float destinoNormalizado)
     {
-        RectTransform content = scrollRect.content;
-        Vector2 posicionInicial = content.anchoredPosition;
-        Vector2 destino = new Vector2(destinoX, posicionInicial.y);
+        float inicio = scrollRect.horizontalNormalizedPosition;
         float tiempo = 0f;
 
         while (tiempo < 1f)
         {
             tiempo += Time.deltaTime * velocidadDesplazamiento;
-            content.anchoredPosition = Vector2.Lerp(posicionInicial, destino, tiempo);
+            scrollRect.horizontalNormalizedPosition = Mathf.Lerp(inicio, destinoNormalizado, tiempo);
             yield return null;
         }
 
-        content.anchoredPosition = destino;
+        scrollRect.horizontalNormalizedPosition = destinoNormalizado;
     }
 }
