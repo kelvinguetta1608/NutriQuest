@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
 
@@ -9,7 +9,9 @@ public class SelectorIngredientes : MonoBehaviour
     {
         public GameObject botonGO;
         public GameObject circuloNaranja;
-        public float posicionXObjetivo; // Posici�n X deseada del Content
+
+        [Range(0f, 1f)]
+        public float posicionNormalizada;
     }
 
     public BotonIngrediente[] botones;
@@ -20,8 +22,8 @@ public class SelectorIngredientes : MonoBehaviour
     {
         for (int i = 0; i < botones.Length; i++)
         {
-            int index = i;
-            botones[i].botonGO.GetComponent<Button>().onClick.AddListener(() => ActivarIngrediente(index));
+            int indexCapturado = i;
+            botones[i].botonGO.GetComponent<Button>().onClick.AddListener(() => ActivarIngrediente(indexCapturado));
         }
 
         ActivarIngrediente(0);
@@ -29,28 +31,63 @@ public class SelectorIngredientes : MonoBehaviour
 
     void ActivarIngrediente(int indexSeleccionado)
     {
+        // Desactiva todos los círculos
         for (int i = 0; i < botones.Length; i++)
         {
-            botones[i].circuloNaranja.SetActive(i == indexSeleccionado);
+            botones[i].circuloNaranja.SetActive(false);
         }
 
-        StartCoroutine(DesplazarScrollX(botones[indexSeleccionado].posicionXObjetivo));
+        // Inicia desplazamiento y enciende imagen correcta después
+        StartCoroutine(DesplazarScrollYActivarImg(botones[indexSeleccionado].posicionNormalizada));
     }
 
-    IEnumerator DesplazarScrollX(float destinoX)
+    IEnumerator DesplazarScrollYActivarImg(float destinoNormalizado)
     {
-        RectTransform content = scrollRect.content;
-        Vector2 posicionInicial = content.anchoredPosition;
-        Vector2 destino = new Vector2(destinoX, posicionInicial.y);
+        float inicio = scrollRect.horizontalNormalizedPosition;
         float tiempo = 0f;
 
         while (tiempo < 1f)
         {
             tiempo += Time.deltaTime * velocidadDesplazamiento;
-            content.anchoredPosition = Vector2.Lerp(posicionInicial, destino, tiempo);
+            scrollRect.horizontalNormalizedPosition = Mathf.Lerp(inicio, destinoNormalizado, tiempo);
             yield return null;
         }
 
-        content.anchoredPosition = destino;
+        scrollRect.horizontalNormalizedPosition = destinoNormalizado;
+
+        // Luego de desplazarse, activamos la imagen adecuada
+        ActivarImagenPorPosicion(destinoNormalizado);
+    }
+
+    void ActivarImagenPorPosicion(float pos)
+    {
+        for (int i = 0; i < botones.Length; i++)
+        {
+            botones[i].circuloNaranja.SetActive(false);
+        }
+
+        int index = 0;
+
+        if (pos >= 0f && pos < 0.32f)
+            index = 0;
+        else if (pos >= 0.32f && pos < 0.49f)
+            index = 1;
+        else if (pos >= 0.49f && pos < 0.79f)
+            index = 2;
+        else if (pos >= 0.79f && pos < 0.92f)
+            index = 3;
+        else if (pos >= 0.92f && pos <= 1f)
+            index = 4;
+
+        if (index >= 0 && index < botones.Length)
+        {
+            botones[index].circuloNaranja.SetActive(true);
+        }
+    }
+
+    private void Update()
+    {
+        // Si quieres que esto se actualice también con swipe manual:
+        ActivarImagenPorPosicion(scrollRect.horizontalNormalizedPosition);
     }
 }
