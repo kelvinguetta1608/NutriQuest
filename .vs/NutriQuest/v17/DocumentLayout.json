@@ -3,15 +3,39 @@
   "WorkspaceRootPath": "C:\\Users\\Usuario\\NutriQuest\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C84A3097-B110-E7BA-504F-197E3350D3E9}|Assembly-CSharp.csproj|c:\\users\\usuario\\nutriquest\\assets\\scripts\\arrastrable3d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usuario\\NutriQuest\\Library\\PackageCache\\com.unity.ugui@1.0.0\\Runtime\\UI\\Core\\Button.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.ugui@1.0.0\\Runtime\\UI\\Core\\Button.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C84A3097-B110-E7BA-504F-197E3350D3E9}|Assembly-CSharp.csproj|c:\\users\\usuario\\nutriquest\\assets\\scripts\\inventariouimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C84A3097-B110-E7BA-504F-197E3350D3E9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\inventariouimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C84A3097-B110-E7BA-504F-197E3350D3E9}|Assembly-CSharp.csproj|c:\\users\\usuario\\nutriquest\\assets\\scripts\\openlink.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C84A3097-B110-E7BA-504F-197E3350D3E9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\openlink.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC41208C-95A7-3BAD-0401-21D633CE2C81}|ReadyPlayerMe.Samples.QuickStart.csproj|c:\\users\\usuario\\nutriquest\\assets\\ready player me\\core\\samples\\quickstart\\scripts\\personalavatarloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC41208C-95A7-3BAD-0401-21D633CE2C81}|ReadyPlayerMe.Samples.QuickStart.csproj|solutionrelative:assets\\ready player me\\core\\samples\\quickstart\\scripts\\personalavatarloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C84A3097-B110-E7BA-504F-197E3350D3E9}|Assembly-CSharp.csproj|C:\\Users\\Usuario\\NutriQuest\\assets\\scripts\\createavatar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C84A3097-B110-E7BA-504F-197E3350D3E9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\createavatar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C84A3097-B110-E7BA-504F-197E3350D3E9}|Assembly-CSharp.csproj|C:\\Users\\Usuario\\NutriQuest\\assets\\scripts\\datapersistence.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C84A3097-B110-E7BA-504F-197E3350D3E9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\datapersistence.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C84A3097-B110-E7BA-504F-197E3350D3E9}|Assembly-CSharp.csproj|C:\\Users\\Usuario\\NutriQuest\\assets\\scripts\\arrastrable3d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C84A3097-B110-E7BA-504F-197E3350D3E9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\arrastrable3d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C84A3097-B110-E7BA-504F-197E3350D3E9}|Assembly-CSharp.csproj|c:\\users\\usuario\\nutriquest\\assets\\ingredientecolortrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C84A3097-B110-E7BA-504F-197E3350D3E9}|Assembly-CSharp.csproj|C:\\Users\\Usuario\\NutriQuest\\assets\\ingredientecolortrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C84A3097-B110-E7BA-504F-197E3350D3E9}|Assembly-CSharp.csproj|solutionrelative:assets\\ingredientecolortrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C84A3097-B110-E7BA-504F-197E3350D3E9}|Assembly-CSharp.csproj|c:\\users\\usuario\\nutriquest\\assets\\3dobj\\alimentos\\ingrediente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C84A3097-B110-E7BA-504F-197E3350D3E9}|Assembly-CSharp.csproj|C:\\Users\\Usuario\\NutriQuest\\assets\\3dobj\\alimentos\\ingrediente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C84A3097-B110-E7BA-504F-197E3350D3E9}|Assembly-CSharp.csproj|solutionrelative:assets\\3dobj\\alimentos\\ingrediente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -39,6 +63,82 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Button.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\NutriQuest\\Library\\PackageCache\\com.unity.ugui@1.0.0\\Runtime\\UI\\Core\\Button.cs",
+              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.ugui@1.0.0\\Runtime\\UI\\Core\\Button.cs",
+              "ToolTip": "C:\\Users\\Usuario\\NutriQuest\\Library\\PackageCache\\com.unity.ugui@1.0.0\\Runtime\\UI\\Core\\Button.cs",
+              "RelativeToolTip": "Library\\PackageCache\\com.unity.ugui@1.0.0\\Runtime\\UI\\Core\\Button.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAQwEUAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T09:15:47.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "InventarioUIManager.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\NutriQuest\\Assets\\Scripts\\InventarioUIManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\InventarioUIManager.cs",
+              "ToolTip": "C:\\Users\\Usuario\\NutriQuest\\Assets\\Scripts\\InventarioUIManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\InventarioUIManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T05:44:20.377Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OpenLink.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\NutriQuest\\Assets\\Scripts\\OpenLink.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\OpenLink.cs",
+              "ToolTip": "C:\\Users\\Usuario\\NutriQuest\\Assets\\Scripts\\OpenLink.cs",
+              "RelativeToolTip": "Assets\\Scripts\\OpenLink.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T03:07:57.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DataPersistence.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\NutriQuest\\Assets\\Scripts\\DataPersistence.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DataPersistence.cs",
+              "ToolTip": "C:\\Users\\Usuario\\NutriQuest\\Assets\\Scripts\\DataPersistence.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DataPersistence.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAADEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T01:13:15.991Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PersonalAvatarLoader.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\NutriQuest\\Assets\\Ready Player Me\\Core\\Samples\\QuickStart\\Scripts\\PersonalAvatarLoader.cs",
+              "RelativeDocumentMoniker": "Assets\\Ready Player Me\\Core\\Samples\\QuickStart\\Scripts\\PersonalAvatarLoader.cs",
+              "ToolTip": "C:\\Users\\Usuario\\NutriQuest\\Assets\\Ready Player Me\\Core\\Samples\\QuickStart\\Scripts\\PersonalAvatarLoader.cs",
+              "RelativeToolTip": "Assets\\Ready Player Me\\Core\\Samples\\QuickStart\\Scripts\\PersonalAvatarLoader.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAwwBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T01:08:25.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CreateAvatar.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\NutriQuest\\Assets\\Scripts\\CreateAvatar.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CreateAvatar.cs",
+              "ToolTip": "C:\\Users\\Usuario\\NutriQuest\\Assets\\Scripts\\CreateAvatar.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CreateAvatar.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T01:05:48.164Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Arrastrable3D.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\NutriQuest\\Assets\\Scripts\\Arrastrable3D.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Arrastrable3D.cs",
@@ -46,12 +146,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Arrastrable3D.cs",
               "ViewState": "AgIAAEMAAAAAAAAAAAAAwGkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T21:23:56.725Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-28T21:23:56.725Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "IngredienteColorTrigger.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\NutriQuest\\Assets\\IngredienteColorTrigger.cs",
               "RelativeDocumentMoniker": "Assets\\IngredienteColorTrigger.cs",
@@ -59,12 +158,11 @@
               "RelativeToolTip": "Assets\\IngredienteColorTrigger.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T21:17:17.457Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-28T21:17:17.457Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "Ingrediente.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\NutriQuest\\Assets\\3dobj\\alimentos\\Ingrediente.cs",
               "RelativeDocumentMoniker": "Assets\\3dobj\\alimentos\\Ingrediente.cs",
@@ -72,12 +170,11 @@
               "RelativeToolTip": "Assets\\3dobj\\alimentos\\Ingrediente.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T18:45:31.54Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-28T18:45:31.54Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "SelectorIngredientes.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\NutriQuest\\Assets\\Maca\\Scripts\\SelectorIngredientes.cs",
               "RelativeDocumentMoniker": "Assets\\Maca\\Scripts\\SelectorIngredientes.cs",
@@ -89,7 +186,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 11,
               "Title": "NecesidadNutricional.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\NutriQuest\\Assets\\Maca\\Scripts\\NecesidadNutricional.cs",
               "RelativeDocumentMoniker": "Assets\\Maca\\Scripts\\NecesidadNutricional.cs",
@@ -101,7 +198,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "LicuadoraManager.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\NutriQuest\\Assets\\3dobj\\alimentos\\LicuadoraManager.cs",
               "RelativeDocumentMoniker": "Assets\\3dobj\\alimentos\\LicuadoraManager.cs",

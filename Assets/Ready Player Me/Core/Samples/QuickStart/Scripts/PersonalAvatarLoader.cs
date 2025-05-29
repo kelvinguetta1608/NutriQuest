@@ -23,13 +23,22 @@ namespace ReadyPlayerMe.Samples.QuickStart
         [SerializeField] private ThirdPersonLoader thirdPersonLoader;
         [SerializeField] private CameraOrbit cameraOrbit;
         [SerializeField] private ThirdPersonController thirdPersonController;
-        
+        public string CurrentAvatarUrl => avatarUrlField.text;
+
         private string defaultButtonText;
 
         private void Start()
         {
             AnalyticsRuntimeLogger.EventLogger.LogRunQuickStartScene();
+
+            string savedAvatarUrl = PlayerPrefs.GetString("AvatarUrl", "");
+            if (!string.IsNullOrEmpty(savedAvatarUrl))
+            {
+                avatarUrlField.text = savedAvatarUrl;
+                thirdPersonLoader.LoadAvatar(savedAvatarUrl);
+            }
         }
+
 
         private void OnEnable()
         {
@@ -74,11 +83,19 @@ namespace ReadyPlayerMe.Samples.QuickStart
             defaultButtonText = openPersonalAvatarPanelButtonText.text;
             SetActiveLoading(true, "Loading...");
 
-            thirdPersonLoader.LoadAvatar(avatarUrlField.text);
+            string url = avatarUrlField.text;
+            thirdPersonLoader.LoadAvatar(url);
+
+            // ?? Guardar la URL del avatar
+            PlayerPrefs.SetString("AvatarUrl", url);
+            PlayerPrefs.Save();
+
             personalAvatarPanel.SetActive(false);
             SetActiveThirdPersonalControls(true);
-            AnalyticsRuntimeLogger.EventLogger.LogPersonalAvatarLoading(avatarUrlField.text);
+
+            AnalyticsRuntimeLogger.EventLogger.LogPersonalAvatarLoading(url);
         }
+
 
         private void OnAvatarUrlFieldValueChanged(string url)
         {
