@@ -1,29 +1,33 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\mandi\\Documents\\GitHub\\NutriQuest\\",
+  "WorkspaceRootPath": "C:\\Users\\Usuario\\NutriQuest\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C84A3097-B110-E7BA-504F-197E3350D3E9}|Assembly-CSharp.csproj|C:\\Users\\mandi\\Documents\\GitHub\\NutriQuest\\assets\\3dobj\\alimentos\\barranutricional.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C84A3097-B110-E7BA-504F-197E3350D3E9}|Assembly-CSharp.csproj|c:\\users\\usuario\\nutriquest\\assets\\volumecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C84A3097-B110-E7BA-504F-197E3350D3E9}|Assembly-CSharp.csproj|solutionrelative:assets\\volumecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C84A3097-B110-E7BA-504F-197E3350D3E9}|Assembly-CSharp.csproj|c:\\users\\usuario\\nutriquest\\assets\\3dobj\\alimentos\\barranutricional.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C84A3097-B110-E7BA-504F-197E3350D3E9}|Assembly-CSharp.csproj|solutionrelative:assets\\3dobj\\alimentos\\barranutricional.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C84A3097-B110-E7BA-504F-197E3350D3E9}|Assembly-CSharp.csproj|C:\\Users\\mandi\\Documents\\GitHub\\NutriQuest\\assets\\3dobj\\alimentos\\ingrediente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C84A3097-B110-E7BA-504F-197E3350D3E9}|Assembly-CSharp.csproj|C:\\Users\\Usuario\\NutriQuest\\assets\\3dobj\\alimentos\\ingrediente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C84A3097-B110-E7BA-504F-197E3350D3E9}|Assembly-CSharp.csproj|solutionrelative:assets\\3dobj\\alimentos\\ingrediente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C84A3097-B110-E7BA-504F-197E3350D3E9}|Assembly-CSharp.csproj|c:\\users\\mandi\\documents\\github\\nutriquest\\assets\\3dobj\\alimentos\\licuadoramanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C84A3097-B110-E7BA-504F-197E3350D3E9}|Assembly-CSharp.csproj|C:\\Users\\Usuario\\NutriQuest\\assets\\3dobj\\alimentos\\licuadoramanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C84A3097-B110-E7BA-504F-197E3350D3E9}|Assembly-CSharp.csproj|solutionrelative:assets\\3dobj\\alimentos\\licuadoramanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C84A3097-B110-E7BA-504F-197E3350D3E9}|Assembly-CSharp.csproj|c:\\users\\mandi\\documents\\github\\nutriquest\\assets\\maca\\scripts\\selectoringredientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C84A3097-B110-E7BA-504F-197E3350D3E9}|Assembly-CSharp.csproj|C:\\Users\\Usuario\\NutriQuest\\assets\\maca\\scripts\\selectoringredientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C84A3097-B110-E7BA-504F-197E3350D3E9}|Assembly-CSharp.csproj|solutionrelative:assets\\maca\\scripts\\selectoringredientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C84A3097-B110-E7BA-504F-197E3350D3E9}|Assembly-CSharp.csproj|C:\\Users\\mandi\\Documents\\GitHub\\NutriQuest\\assets\\scripts\\arrastrable3d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C84A3097-B110-E7BA-504F-197E3350D3E9}|Assembly-CSharp.csproj|C:\\Users\\Usuario\\NutriQuest\\assets\\scripts\\arrastrable3d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C84A3097-B110-E7BA-504F-197E3350D3E9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\arrastrable3d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C84A3097-B110-E7BA-504F-197E3350D3E9}|Assembly-CSharp.csproj|C:\\Users\\mandi\\Documents\\GitHub\\NutriQuest\\assets\\ingredientecolortrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C84A3097-B110-E7BA-504F-197E3350D3E9}|Assembly-CSharp.csproj|C:\\Users\\Usuario\\NutriQuest\\assets\\ingredientecolortrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C84A3097-B110-E7BA-504F-197E3350D3E9}|Assembly-CSharp.csproj|solutionrelative:assets\\ingredientecolortrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -40,32 +44,40 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "SelectorIngredientes.cs",
-              "DocumentMoniker": "C:\\Users\\mandi\\Documents\\GitHub\\NutriQuest\\Assets\\Maca\\Scripts\\SelectorIngredientes.cs",
-              "RelativeDocumentMoniker": "Assets\\Maca\\Scripts\\SelectorIngredientes.cs",
-              "ToolTip": "C:\\Users\\mandi\\Documents\\GitHub\\NutriQuest\\Assets\\Maca\\Scripts\\SelectorIngredientes.cs",
-              "RelativeToolTip": "Assets\\Maca\\Scripts\\SelectorIngredientes.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAAkwE4AAAAcAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "VolumeController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\NutriQuest\\Assets\\VolumeController.cs",
+              "RelativeDocumentMoniker": "Assets\\VolumeController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\NutriQuest\\Assets\\VolumeController.cs",
+              "RelativeToolTip": "Assets\\VolumeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-29T06:15:17.767Z",
+              "WhenOpened": "2025-05-29T11:40:41.747Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "SelectorIngredientes.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\NutriQuest\\Assets\\Maca\\Scripts\\SelectorIngredientes.cs",
+              "RelativeDocumentMoniker": "Assets\\Maca\\Scripts\\SelectorIngredientes.cs",
+              "ToolTip": "C:\\Users\\Usuario\\NutriQuest\\Assets\\Maca\\Scripts\\SelectorIngredientes.cs",
+              "RelativeToolTip": "Assets\\Maca\\Scripts\\SelectorIngredientes.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAkwE4AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T06:15:17.767Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Arrastrable3D.cs",
-              "DocumentMoniker": "C:\\Users\\mandi\\Documents\\GitHub\\NutriQuest\\Assets\\Scripts\\Arrastrable3D.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\NutriQuest\\Assets\\Scripts\\Arrastrable3D.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Arrastrable3D.cs",
-              "ToolTip": "C:\\Users\\mandi\\Documents\\GitHub\\NutriQuest\\Assets\\Scripts\\Arrastrable3D.cs",
+              "ToolTip": "C:\\Users\\Usuario\\NutriQuest\\Assets\\Scripts\\Arrastrable3D.cs",
               "RelativeToolTip": "Assets\\Scripts\\Arrastrable3D.cs",
               "ViewState": "AgIAAFIAAAAAAAAAAAAkwIUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -73,11 +85,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "IngredienteColorTrigger.cs",
-              "DocumentMoniker": "C:\\Users\\mandi\\Documents\\GitHub\\NutriQuest\\Assets\\IngredienteColorTrigger.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\NutriQuest\\Assets\\IngredienteColorTrigger.cs",
               "RelativeDocumentMoniker": "Assets\\IngredienteColorTrigger.cs",
-              "ToolTip": "C:\\Users\\mandi\\Documents\\GitHub\\NutriQuest\\Assets\\IngredienteColorTrigger.cs",
+              "ToolTip": "C:\\Users\\Usuario\\NutriQuest\\Assets\\IngredienteColorTrigger.cs",
               "RelativeToolTip": "Assets\\IngredienteColorTrigger.cs",
               "ViewState": "AgIAADMAAAAAAAAAAAAAwF0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -85,66 +97,64 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "EleccionBatido.cs",
               "DocumentMoniker": "C:\\Users\\dmaca\\OneDrive\\Documentos\\Semestre 8\\DisenoMultimedia2\\Nutriquest\\Assets\\Maca\\Scripts\\EleccionBatido.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\dmaca\\OneDrive\\Documentos\\Semestre 8\\DisenoMultimedia2\\Nutriquest\\Assets\\Maca\\Scripts\\EleccionBatido.cs",
+              "RelativeDocumentMoniker": "..\\..\\dmaca\\OneDrive\\Documentos\\Semestre 8\\DisenoMultimedia2\\Nutriquest\\Assets\\Maca\\Scripts\\EleccionBatido.cs",
               "ToolTip": "C:\\Users\\dmaca\\OneDrive\\Documentos\\Semestre 8\\DisenoMultimedia2\\Nutriquest\\Assets\\Maca\\Scripts\\EleccionBatido.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\dmaca\\OneDrive\\Documentos\\Semestre 8\\DisenoMultimedia2\\Nutriquest\\Assets\\Maca\\Scripts\\EleccionBatido.cs",
+              "RelativeToolTip": "..\\..\\dmaca\\OneDrive\\Documentos\\Semestre 8\\DisenoMultimedia2\\Nutriquest\\Assets\\Maca\\Scripts\\EleccionBatido.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-29T02:04:43.048Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "DatosCompartidos.cs",
               "DocumentMoniker": "C:\\Users\\dmaca\\OneDrive\\Documentos\\Semestre 8\\DisenoMultimedia2\\Nutriquest\\Assets\\Maca\\Scripts\\DatosCompartidos.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\dmaca\\OneDrive\\Documentos\\Semestre 8\\DisenoMultimedia2\\Nutriquest\\Assets\\Maca\\Scripts\\DatosCompartidos.cs",
+              "RelativeDocumentMoniker": "..\\..\\dmaca\\OneDrive\\Documentos\\Semestre 8\\DisenoMultimedia2\\Nutriquest\\Assets\\Maca\\Scripts\\DatosCompartidos.cs",
               "ToolTip": "C:\\Users\\dmaca\\OneDrive\\Documentos\\Semestre 8\\DisenoMultimedia2\\Nutriquest\\Assets\\Maca\\Scripts\\DatosCompartidos.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\dmaca\\OneDrive\\Documentos\\Semestre 8\\DisenoMultimedia2\\Nutriquest\\Assets\\Maca\\Scripts\\DatosCompartidos.cs",
+              "RelativeToolTip": "..\\..\\dmaca\\OneDrive\\Documentos\\Semestre 8\\DisenoMultimedia2\\Nutriquest\\Assets\\Maca\\Scripts\\DatosCompartidos.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-29T01:55:24.764Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "BarraNutricional.cs",
-              "DocumentMoniker": "C:\\Users\\mandi\\Documents\\GitHub\\NutriQuest\\Assets\\3dobj\\alimentos\\BarraNutricional.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\NutriQuest\\Assets\\3dobj\\alimentos\\BarraNutricional.cs",
               "RelativeDocumentMoniker": "Assets\\3dobj\\alimentos\\BarraNutricional.cs",
-              "ToolTip": "C:\\Users\\mandi\\Documents\\GitHub\\NutriQuest\\Assets\\3dobj\\alimentos\\BarraNutricional.cs",
+              "ToolTip": "C:\\Users\\Usuario\\NutriQuest\\Assets\\3dobj\\alimentos\\BarraNutricional.cs",
               "RelativeToolTip": "Assets\\3dobj\\alimentos\\BarraNutricional.cs",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAkwF4AAABPAAAAAAAAAA==",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAkwF4AAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-28T22:49:16.691Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Ingrediente.cs",
-              "DocumentMoniker": "C:\\Users\\mandi\\Documents\\GitHub\\NutriQuest\\Assets\\3dobj\\alimentos\\Ingrediente.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\NutriQuest\\Assets\\3dobj\\alimentos\\Ingrediente.cs",
               "RelativeDocumentMoniker": "Assets\\3dobj\\alimentos\\Ingrediente.cs",
-              "ToolTip": "C:\\Users\\mandi\\Documents\\GitHub\\NutriQuest\\Assets\\3dobj\\alimentos\\Ingrediente.cs",
+              "ToolTip": "C:\\Users\\Usuario\\NutriQuest\\Assets\\3dobj\\alimentos\\Ingrediente.cs",
               "RelativeToolTip": "Assets\\3dobj\\alimentos\\Ingrediente.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T18:45:31.54Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-28T18:45:31.54Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "LicuadoraManager.cs",
-              "DocumentMoniker": "C:\\Users\\mandi\\Documents\\GitHub\\NutriQuest\\Assets\\3dobj\\alimentos\\LicuadoraManager.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\NutriQuest\\Assets\\3dobj\\alimentos\\LicuadoraManager.cs",
               "RelativeDocumentMoniker": "Assets\\3dobj\\alimentos\\LicuadoraManager.cs",
-              "ToolTip": "C:\\Users\\mandi\\Documents\\GitHub\\NutriQuest\\Assets\\3dobj\\alimentos\\LicuadoraManager.cs",
+              "ToolTip": "C:\\Users\\Usuario\\NutriQuest\\Assets\\3dobj\\alimentos\\LicuadoraManager.cs",
               "RelativeToolTip": "Assets\\3dobj\\alimentos\\LicuadoraManager.cs",
               "ViewState": "AgIAACMAAAAAAAAAAAAcwDsAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T16:16:28.729Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-28T16:16:28.729Z"
             }
           ]
         }
