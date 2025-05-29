@@ -7,11 +7,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadyPlayerMe.Core.Editor",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadyPlayerMe.Samples.AvatarCreatorWizard", "ReadyPlayerMe.Samples.AvatarCreatorWizard.csproj", "{EAFE2707-D09B-514E-A435-0793FDF2D060}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{C84A3097-B110-E7BA-504F-197E3350D3E9}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadyPlayerMe.Core", "ReadyPlayerMe.Core.csproj", "{354020BF-FBA8-BEFE-938A-BCCB4CCDF8DE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadyPlayerMe.Samples.AvatarLoading", "ReadyPlayerMe.Samples.AvatarLoading.csproj", "{7FE9E3F9-E080-DBDA-CA34-B08685FE82C1}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{C84A3097-B110-E7BA-504F-197E3350D3E9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadyPlayerMe.Samples.AvatarCreatorElements", "ReadyPlayerMe.Samples.AvatarCreatorElements.csproj", "{4AD1392D-42C4-402C-EEF3-7415B3FDD627}"
 EndProject
@@ -45,6 +45,10 @@ Global
 		{EAFE2707-D09B-514E-A435-0793FDF2D060}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EAFE2707-D09B-514E-A435-0793FDF2D060}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EAFE2707-D09B-514E-A435-0793FDF2D060}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C84A3097-B110-E7BA-504F-197E3350D3E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C84A3097-B110-E7BA-504F-197E3350D3E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C84A3097-B110-E7BA-504F-197E3350D3E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C84A3097-B110-E7BA-504F-197E3350D3E9}.Release|Any CPU.Build.0 = Release|Any CPU
 		{354020BF-FBA8-BEFE-938A-BCCB4CCDF8DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{354020BF-FBA8-BEFE-938A-BCCB4CCDF8DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{354020BF-FBA8-BEFE-938A-BCCB4CCDF8DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -53,10 +57,6 @@ Global
 		{7FE9E3F9-E080-DBDA-CA34-B08685FE82C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7FE9E3F9-E080-DBDA-CA34-B08685FE82C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7FE9E3F9-E080-DBDA-CA34-B08685FE82C1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C84A3097-B110-E7BA-504F-197E3350D3E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C84A3097-B110-E7BA-504F-197E3350D3E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C84A3097-B110-E7BA-504F-197E3350D3E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C84A3097-B110-E7BA-504F-197E3350D3E9}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4AD1392D-42C4-402C-EEF3-7415B3FDD627}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4AD1392D-42C4-402C-EEF3-7415B3FDD627}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4AD1392D-42C4-402C-EEF3-7415B3FDD627}.Release|Any CPU.ActiveCfg = Release|Any CPU

@@ -1,5 +1,6 @@
+using ReadyPlayerMe.Samples.QuickStart;
+using TMPro;
 using UnityEngine;
-using TMPro; // Importar TextMeshPro
 
 public class DataPersistenceTMP : MonoBehaviour
 {
@@ -9,9 +10,12 @@ public class DataPersistenceTMP : MonoBehaviour
     public TMP_InputField inputPeso;
     public TMP_InputField inputGenero;
 
+    private PersonalAvatarLoader avatarLoader;
+
     void Start()
     {
-        // Cargar datos al iniciar
+        avatarLoader = FindObjectOfType<PersonalAvatarLoader>();
+
         inputNombre.text = PlayerPrefs.GetString("Nombre", "");
         inputEdad.text = PlayerPrefs.GetInt("Edad", 0).ToString();
         inputEstatura.text = PlayerPrefs.GetFloat("Estatura", 0).ToString();
@@ -21,21 +25,25 @@ public class DataPersistenceTMP : MonoBehaviour
 
     public void GuardarDatos()
     {
-        // Validar entradas vacías antes de guardar
         if (string.IsNullOrEmpty(inputEdad.text) || string.IsNullOrEmpty(inputEstatura.text) || string.IsNullOrEmpty(inputPeso.text))
         {
             Debug.LogWarning("Algunos campos numéricos están vacíos. No se guardarán.");
             return;
         }
 
-        // Guardar datos en PlayerPrefs
         PlayerPrefs.SetString("Nombre", inputNombre.text);
         PlayerPrefs.SetInt("Edad", int.TryParse(inputEdad.text, out int edad) ? edad : 0);
         PlayerPrefs.SetFloat("Estatura", float.TryParse(inputEstatura.text, out float estatura) ? estatura : 0f);
         PlayerPrefs.SetFloat("Peso", float.TryParse(inputPeso.text, out float peso) ? peso : 0f);
         PlayerPrefs.SetString("Genero", inputGenero.text);
 
+        // ?? Guardar la URL del avatar desde PersonalAvatarLoader
+        if (avatarLoader != null)
+        {
+            PlayerPrefs.SetString("AvatarUrl", avatarLoader.CurrentAvatarUrl);
+        }
+
         PlayerPrefs.Save();
-        Debug.Log("Datos guardados correctamente");
+        Debug.Log("Datos y avatar guardados correctamente");
     }
 }
