@@ -248,16 +248,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1504176782}
-        m_TargetAssemblyTypeName: SelectorNecesidad, Assembly-CSharp
+      - m_Target: {fileID: 638386823}
+        m_TargetAssemblyTypeName: SelectorNecesidadUI, Assembly-CSharp
         m_MethodName: SeleccionarNecesidad
-        m_Mode: 3
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Ansiedad
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &307026604
@@ -298,6 +298,50 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 307026600}
   m_CullTransparentMesh: 1
+--- !u!1 &638386822
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 638386824}
+  - component: {fileID: 638386823}
+  m_Layer: 0
+  m_Name: GestorUI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &638386823
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 638386822}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7839366ac3c17d24a85891f4140fad02, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &638386824
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 638386822}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 554.3406, y: 1107.2158, z: -755.4666}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &739049105
 GameObject:
   m_ObjectHideFlags: 0
@@ -380,16 +424,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1504176782}
-        m_TargetAssemblyTypeName: SelectorNecesidad, Assembly-CSharp
+      - m_Target: {fileID: 638386823}
+        m_TargetAssemblyTypeName: SelectorNecesidadUI, Assembly-CSharp
         m_MethodName: SeleccionarNecesidad
-        m_Mode: 3
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 1
           m_FloatArgument: 0
-          m_StringArgument: miniJuego
+          m_StringArgument: "Sue\xF1o"
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &739049108
@@ -913,10 +957,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3f87d66017c0d840b6a6764360588f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  opcionesNecesidad:
-  - {fileID: 11400000, guid: 16ce4841bc123904799439a9f3e52b8f, type: 2}
-  - {fileID: 11400000, guid: 81271811ed5ad074082bee45bc91b2bf, type: 2}
-  - {fileID: 11400000, guid: bb25a24d887a8d347a2e063809336781, type: 2}
 --- !u!114 &1504176783
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1037,16 +1077,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1504176782}
-        m_TargetAssemblyTypeName: SelectorNecesidad, Assembly-CSharp
+      - m_Target: {fileID: 638386823}
+        m_TargetAssemblyTypeName: SelectorNecesidadUI, Assembly-CSharp
         m_MethodName: SeleccionarNecesidad
-        m_Mode: 3
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 2
           m_FloatArgument: 0
-          m_StringArgument: AlomentosCat
+          m_StringArgument: Estres
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1717541379
@@ -1435,16 +1475,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1504176782}
-        m_TargetAssemblyTypeName: SelectorNecesidad, Assembly-CSharp
+      - m_Target: {fileID: 638386823}
+        m_TargetAssemblyTypeName: SelectorNecesidadUI, Assembly-CSharp
         m_MethodName: SeleccionarNecesidad
-        m_Mode: 3
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 2
           m_FloatArgument: 0
-          m_StringArgument: AlomentosCat
+          m_StringArgument: ActFisica
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &2133488368
@@ -1493,3 +1533,4 @@ SceneRoots:
   - {fileID: 1358133876}
   - {fileID: 1453361682}
   - {fileID: 135193900}
+  - {fileID: 638386824}
