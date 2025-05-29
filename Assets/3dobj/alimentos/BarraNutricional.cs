@@ -1,40 +1,48 @@
-using System.Collections;
+﻿using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
+using static BarraNutricional;
 
 public class BarraNutricional : MonoBehaviour
 {
-    public enum EstadoBarra { Bajo, Ideal, Alto }
-    public EstadoBarra Estado = EstadoBarra.Bajo;
+    public enum EstadoBarra { Ideal, FueraDeRango }
 
-    public Image barra;
-    [Range(0f, 1f)]
-    public float valorActual;
+    private Image barra;
+
+    [Range(0f, 1f)] public float valorActual;
+
+    public EstadoBarra Estado { get; set; } = EstadoBarra.FueraDeRango;
 
     private Coroutine animacionActual;
 
+    void Awake()
+    {
+        barra = GetComponent<Image>();
+        if (barra == null)
+        {
+            Debug.LogError("No se encontró el componente Image en el GameObject de la barra nutricional.");
+        }
+    }
+
     void Update()
     {
-        switch (Estado)
+        if (barra != null)
         {
-            case EstadoBarra.Bajo:
-                barra.color = Color.red;
-                break;
-            case EstadoBarra.Ideal:
-                barra.color = Color.green;
-                break;
-            case EstadoBarra.Alto:
-                barra.color = new Color(0.5f, 0f, 0f); // Marr�n oscuro
-                break;
+            barra.color = (Estado == EstadoBarra.Ideal) ? Color.green : Color.red;
         }
     }
 
     public void ActualizarBarra(float nuevoValor)
     {
-        valorActual = Mathf.Clamp(nuevoValor, 0f, 1f);
+        valorActual = Mathf.Clamp01(nuevoValor);
+
+        Debug.Log($"[BarraNutricional] Valor recibido: {nuevoValor}, Fill final: {valorActual}");
+
         if (animacionActual != null)
             StopCoroutine(animacionActual);
-        animacionActual = StartCoroutine(AnimarCambioBarra(valorActual));
+
+        if (barra != null)
+            animacionActual = StartCoroutine(AnimarCambioBarra(valorActual));
     }
 
     private IEnumerator AnimarCambioBarra(float valorFinal)
@@ -45,12 +53,18 @@ public class BarraNutricional : MonoBehaviour
 
         while (tiempo < duracion)
         {
-            barra.fillAmount = Mathf.Lerp(valorInicial, valorFinal, tiempo / duracion);
             tiempo += Time.deltaTime;
+            float nuevoValor = Mathf.Lerp(valorInicial, valorFinal, tiempo / duracion);
+            barra.fillAmount = nuevoValor;
+
+            Debug.Log($"Barra rellenándose: {nuevoValor}");
             yield return null;
         }
 
         barra.fillAmount = valorFinal;
         animacionActual = null;
+
+        Debug.Log($"Relleno final: {barra.fillAmount}");
     }
 }
+
